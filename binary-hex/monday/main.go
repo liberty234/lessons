@@ -9,8 +9,11 @@ func main() {
 	var today = "Monday"
 
 	na := "monday"
+	for i := 0; i < 5; i++ {
 
-	fmt.Println(na)
+		fmt.Println(na)
+
+	}
 
 	fmt.Println(string([]byte(today)))
 }

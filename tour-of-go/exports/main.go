@@ -5,6 +5,7 @@ import (
 
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
 	math "github.com/liberty234/lessons/tour-of-go/exports/math"
+	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
 )
 
@@ -21,5 +22,9 @@ func main() {
 
 	//use test as export package
 	test.Square()
+
+	//use string export package
+	fmt.Println("my name is ", string1.Name)
+	string1.Info()
 
 }

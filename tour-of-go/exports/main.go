@@ -5,6 +5,7 @@ import (
 
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
 	math "github.com/liberty234/lessons/tour-of-go/exports/math"
+	"github.com/liberty234/lessons/tour-of-go/exports/test"
 )
 
 func main() {
@@ -17,5 +18,8 @@ func main() {
 	info := data.PersonalInfo{Name: "Liberty", Phnumber: "07061267494", DateOfBirth: 4, Age: 22}
 	fmt.Println(info)
 	data.Class()
+
+	//use test as export package
+	test.Square()
 
 }

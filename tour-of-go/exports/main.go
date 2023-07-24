@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
+	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	math "github.com/liberty234/lessons/tour-of-go/exports/math"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
@@ -26,5 +27,10 @@ func main() {
 	//use string export package
 	fmt.Println("my name is ", string1.Name)
 	string1.Info()
+
+	//use fileops export package
+	don := fileops.Paybill{Fees: "100k", ElBill: "5k", Gas: "12k"}
+	fmt.Println("Total paybill", don)
+	fileops.Bill()
 
 }

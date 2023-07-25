@@ -11,6 +11,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
+	"github.com/liberty234/lessons/tour-of-go/exports/sorting"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
 	"github.com/liberty234/lessons/tour-of-go/exports/util"
@@ -62,5 +63,8 @@ func main() {
 	//used network as exported package
 	fmt.Println(network.Get)
 	network.Network()
+
+	//used sorting as exported package
+	sorting.Sorting()
 
 }

@@ -6,6 +6,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	math "github.com/liberty234/lessons/tour-of-go/exports/math"
+	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
 )
@@ -32,5 +33,9 @@ func main() {
 	don := fileops.Paybill{Fees: "100k", ElBill: "5k", Gas: "12k"}
 	fmt.Println("Total paybill", don)
 	fileops.Bill()
+
+	//using parsers as exported package
+	parsers.Goods()
+	parsers.Total()
 
 }

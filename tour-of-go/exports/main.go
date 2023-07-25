@@ -8,6 +8,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	math "github.com/liberty234/lessons/tour-of-go/exports/math"
+	"github.com/liberty234/lessons/tour-of-go/exports/network"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
@@ -57,5 +58,9 @@ func main() {
 	bik := util.CarsAmount{Toyota: 9000, Lexus: 10000, Benx: 45000}
 	fmt.Println("CarsTotal:", bik)
 	util.Cars()
+
+	//used network as exported package
+	fmt.Println(network.Get)
+	network.Network()
 
 }

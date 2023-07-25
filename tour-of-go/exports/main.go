@@ -15,6 +15,7 @@ import (
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
 	"github.com/liberty234/lessons/tour-of-go/exports/util"
+	"github.com/liberty234/lessons/tour-of-go/exports/xmlops"
 )
 
 func main() {
@@ -66,5 +67,8 @@ func main() {
 
 	//used sorting as exported package
 	sorting.Sorting()
+
+	//used xmlops as exported package
+	fmt.Println(xmlops.Mlx)
 
 }

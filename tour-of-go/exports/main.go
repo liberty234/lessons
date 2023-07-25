@@ -12,6 +12,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
+	"github.com/liberty234/lessons/tour-of-go/exports/util"
 )
 
 func main() {
@@ -51,5 +52,10 @@ func main() {
 	//used parsing as export package
 	parsing.Parsing()
 	parsing.Divide()
+
+	//used util as exported package
+	bik := util.CarsAmount{Toyota: 9000, Lexus: 10000, Benx: 45000}
+	fmt.Println("CarsTotal:", bik)
+	util.Cars()
 
 }

@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
@@ -41,7 +42,9 @@ func main() {
 	parsers.Total()
 
 	//using deck as exported package
-
 	deck.Cards()
+
+	//use buffer as export package
+	buffers.Register()
 
 }

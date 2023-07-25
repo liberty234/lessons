@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
+	"github.com/liberty234/lessons/tour-of-go/exports/deck"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	math "github.com/liberty234/lessons/tour-of-go/exports/math"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
@@ -24,6 +25,7 @@ func main() {
 
 	//use test as export package
 	test.Square()
+	fmt.Println("the first person is", test.FirstPerson)
 
 	//use string export package
 	fmt.Println("my name is ", string1.Name)
@@ -37,5 +39,9 @@ func main() {
 	//using parsers as exported package
 	parsers.Goods()
 	parsers.Total()
+
+	//using deck as exported package
+
+	deck.Cards()
 
 }

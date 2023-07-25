@@ -9,6 +9,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	math "github.com/liberty234/lessons/tour-of-go/exports/math"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
+	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
 )
@@ -44,7 +45,11 @@ func main() {
 	//using deck as exported package
 	deck.Cards()
 
-	//use buffer as export package
+	//used buffer as export package
 	buffers.Register()
+
+	//used parsing as export package
+	parsing.Parsing()
+	parsing.Divide()
 
 }

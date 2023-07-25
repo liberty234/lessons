@@ -2,7 +2,7 @@ package buffers
 
 import "fmt"
 
-func Divition() {
-	Divide := divition(90, 20)
-	fmt.Println("Divition:", Divide)
+func Tans() {
+	divde := tans(48, 34)
+	fmt.Println("Divition:", divde)
 }

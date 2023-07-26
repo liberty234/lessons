@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/liberty234/lessons/tour-of-go/exports/authops"
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
@@ -70,5 +71,8 @@ func main() {
 
 	//used xmlops as exported package
 	fmt.Println(xmlops.Mlx)
+
+	//used authops as exported package
+	authops.Premiar()
 
 }

@@ -7,6 +7,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
+	"github.com/liberty234/lessons/tour-of-go/exports/email"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	math "github.com/liberty234/lessons/tour-of-go/exports/math"
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
@@ -74,5 +75,9 @@ func main() {
 
 	//used authops as exported package
 	authops.Premiar()
+
+	//used email as exported package
+	email.Address()
+	fmt.Println(email.ReceiverAddress)
 
 }

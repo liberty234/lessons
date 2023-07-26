@@ -14,6 +14,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
+	"github.com/liberty234/lessons/tour-of-go/exports/somaphore"
 	"github.com/liberty234/lessons/tour-of-go/exports/sorting"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
@@ -84,5 +85,9 @@ func main() {
 	// used datatime as exported package
 	datatime.Calculate()
 	fmt.Println("the Datatime is", datatime.Datatime)
+
+	//used somaphore as exported package
+	somaphore.Ben()
+	somaphore.Bigi()
 
 }

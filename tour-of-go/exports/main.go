@@ -6,6 +6,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/authops"
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
+	"github.com/liberty234/lessons/tour-of-go/exports/datatime"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
 	"github.com/liberty234/lessons/tour-of-go/exports/email"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
@@ -79,5 +80,9 @@ func main() {
 	//used email as exported package
 	email.Address()
 	fmt.Println(email.ReceiverAddress)
+
+	// used datatime as exported package
+	datatime.Calculate()
+	fmt.Println("the Datatime is", datatime.Datatime)
 
 }

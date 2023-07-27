@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/liberty234/lessons/tour-of-go/exports/auth"
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
 	"github.com/liberty234/lessons/tour-of-go/exports/config"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
@@ -72,5 +73,10 @@ func main() {
 	fmt.Println("Game name:", config.GameName)
 	config.Namevex()
 	config.Calcu()
+
+	//used auth as exported package
+	fmt.Println("Multipo:", auth.Multi)
+	auth.MyNaame()
+	auth.Deva()
 
 }

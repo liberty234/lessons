@@ -2,9 +2,9 @@ package deck
 
 import "fmt"
 
-func newDeck(red, blue int) int {
-	return red + blue
-}
+var seed string = "beans seed"
+
+var MyName string = "my name is Liberty"
 
 func Cards() {
 	Cards := []string{"five of diamond", "Ace of Spade", "five of Spade"}
@@ -12,4 +12,10 @@ func Cards() {
 	for i, card := range Cards {
 		fmt.Println(i, card)
 	}
+
+}
+
+func newDeck() {
+	dek := 54 * 34
+	fmt.Println("dek", dek)
 }

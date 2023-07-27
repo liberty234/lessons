@@ -14,6 +14,10 @@ func Register() {
 	}
 
 }
-func tans(x, y int) int {
-	return x * y
+
+func sub() {
+	substraction := 4 - 2
+
+	fmt.Println(substraction)
+
 }

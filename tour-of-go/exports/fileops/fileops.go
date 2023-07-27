@@ -1,12 +1,10 @@
 package fileops
 
-func bill(foodstuff int, fees int, gas int) int {
-	return foodstuff + fees + gas
+import "fmt"
 
-}
+var Paybill string = "electric bill : 5k"
 
-type Paybill struct {
-	Fees   string
-	ElBill string
-	Gas    string
+func Bill() {
+	totalBill := bill(100, 50, 60)
+	fmt.Println("Total Bill", totalBill)
 }

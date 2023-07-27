@@ -1,13 +1,15 @@
 package data
 
-type PersonalInfo struct {
-	Name        string
-	Phnumber    string
-	DateOfBirth int
-	Age         int
+import "fmt"
+
+var Happy string = "my name is happy"
+
+func Class() {
+	class12 := class(45, 23)
+	fmt.Println("The number of class1 and class2 = ", class12)
 }
 
-func class(class1, class2 int) int {
-	return class1 + class2
+func FirstName() {
+	fmt.Println("my first name is ", firstName)
 
 }

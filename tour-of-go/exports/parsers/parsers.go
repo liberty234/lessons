@@ -13,4 +13,5 @@ func Goods() {
 func Total() {
 	alto := total(10, 15, 12)
 	fmt.Println("\nThe total of bread, bean and rice is", alto)
+	fmt.Println("Total:", totas)
 }

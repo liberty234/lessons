@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
+	"github.com/liberty234/lessons/tour-of-go/exports/config"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
@@ -24,8 +25,8 @@ func main() {
 	math.Add()
 
 	//used data export package
-	info := data.PersonalInfo{Name: "Liberty", Phnumber: "07061267494", DateOfBirth: 4, Age: 22}
-	fmt.Println(info)
+	fmt.Println("Your Name:", data.Happy)
+	data.FirstName()
 	data.Class()
 
 	//use test as export package
@@ -37,8 +38,7 @@ func main() {
 	string1.Info()
 
 	//use fileops export package
-	don := fileops.Paybill{Fees: "100k", ElBill: "5k", Gas: "12k"}
-	fmt.Println("Total paybill", don)
+	fmt.Println("bill paid", fileops.Paybill)
 	fileops.Bill()
 
 	//using parsers as exported package
@@ -47,6 +47,7 @@ func main() {
 
 	//using deck as exported package
 	deck.Cards()
+	fmt.Println("MYName:", deck.MyName)
 
 	//used buffer as export package
 	buffers.Register()
@@ -66,5 +67,10 @@ func main() {
 
 	//used sorting as exported package
 	sorting.Sorting()
+
+	//used config as exported package
+	fmt.Println("Game name:", config.GameName)
+	config.Namevex()
+	config.Calcu()
 
 }

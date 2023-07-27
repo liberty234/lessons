@@ -1,11 +1,7 @@
 package math
 
-import "fmt"
+var getName string = "freeman"
 
-func PersonName() {
-	fmt.Println(getName)
-}
-func Add() {
-	ads := add(23, 23)
-	fmt.Println("Addiction:", ads)
+func plus(x, y int) int {
+	return x + y
 }

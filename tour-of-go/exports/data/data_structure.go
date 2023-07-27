@@ -1,8 +1,8 @@
 package data
 
-import "fmt"
+var firstName string = "Liberty"
 
-func Class() {
-	class12 := class(45, 23)
-	fmt.Println("The number of class1 and class2 = ", class12)
+func class(class1, class2 int) int {
+	return class1 + class2
+
 }

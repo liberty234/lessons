@@ -1,10 +1,6 @@
 package fileops
 
-import (
-	"fmt"
-)
+func bill(foodstuff int, fees int, gas int) int {
+	return foodstuff + fees + gas
 
-func Bill() {
-	totalBill := bill(100, 50, 60)
-	fmt.Println("Total Bill", totalBill)
 }

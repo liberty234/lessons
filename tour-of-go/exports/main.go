@@ -5,6 +5,7 @@ import (
 
 	"github.com/liberty234/lessons/tour-of-go/exports/auth"
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
+	"github.com/liberty234/lessons/tour-of-go/exports/colors"
 	"github.com/liberty234/lessons/tour-of-go/exports/config"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
@@ -78,5 +79,10 @@ func main() {
 	fmt.Println("Multipo:", auth.Multi)
 	auth.MyNaame()
 	auth.Deva()
+
+	//used colors as exported package
+	fmt.Println("MyBestColor:", colors.BestColor)
+	colors.Colors()
+	colors.Colour()
 
 }

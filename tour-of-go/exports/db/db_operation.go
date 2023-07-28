@@ -1,4 +1,4 @@
-package math
+package db
 
 var getName string = "freeman"
 

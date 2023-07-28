@@ -2,8 +2,6 @@ package deck
 
 import "fmt"
 
-var seed string = "beans seed"
-
 var MyName string = "my name is Liberty"
 
 func Cards() {
@@ -14,8 +12,8 @@ func Cards() {
 	}
 
 }
+func NewDeck() {
+	fmt.Println(seed)
+	newDeck()
 
-func newDeck() {
-	dek := 54 * 34
-	fmt.Println("dek", dek)
 }

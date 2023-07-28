@@ -8,9 +8,9 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/colors"
 	"github.com/liberty234/lessons/tour-of-go/exports/config"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
+	"github.com/liberty234/lessons/tour-of-go/exports/db"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
-	math "github.com/liberty234/lessons/tour-of-go/exports/math"
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
@@ -18,13 +18,14 @@ import (
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
 	"github.com/liberty234/lessons/tour-of-go/exports/util"
+	"github.com/liberty234/lessons/tour-of-go/exports/validation"
 )
 
 func main() {
 	//used math export package
-	fmt.Println(math.Person)
-	math.PersonName()
-	math.Add()
+	fmt.Println(db.Person)
+	db.PersonName()
+	db.Add()
 
 	//used data export package
 	fmt.Println("Your Name:", data.Happy)
@@ -42,17 +43,21 @@ func main() {
 	//use fileops export package
 	fmt.Println("bill paid", fileops.Paybill)
 	fileops.Bill()
+	fileops.Billpaid()
 
 	//using parsers as exported package
 	parsers.Goods()
 	parsers.Total()
 
 	//using deck as exported package
-	deck.Cards()
 	fmt.Println("MYName:", deck.MyName)
+	deck.Cards()
+	deck.NewDeck()
 
 	//used buffer as export package
+	fmt.Println("Level:", buffers.Level)
 	buffers.Register()
+	buffers.Sub()
 
 	//used parsing as export package
 	parsing.Parsing()
@@ -66,9 +71,12 @@ func main() {
 	//used network as exported package
 	fmt.Println(network.Get)
 	network.Network()
+	network.NetworkName()
 
 	//used sorting as exported package
+	fmt.Println("Ans:", sorting.Sort)
 	sorting.Sorting()
+	sorting.Books()
 
 	//used config as exported package
 	fmt.Println("Game name:", config.GameName)
@@ -84,5 +92,10 @@ func main() {
 	fmt.Println("MyBestColor:", colors.BestColor)
 	colors.Colors()
 	colors.Colour()
+
+	//used validation as exported package
+	fmt.Println("Valid NO:", validation.Valid)
+	validation.Values()
+	validation.Grade()
 
 }

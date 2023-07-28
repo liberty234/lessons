@@ -2,6 +2,8 @@ package buffers
 
 import "fmt"
 
+var Level = 100
+
 func Register() {
 	firstName := []string{"Liberty", "Best", "Peace"}
 	lastName := []string{"Ebikade"}
@@ -15,9 +17,7 @@ func Register() {
 
 }
 
-func sub() {
-	substraction := 4 - 2
-
-	fmt.Println(substraction)
-
+func Sub() {
+	fmt.Println("SubB", subb)
+	sub()
 }

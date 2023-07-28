@@ -12,6 +12,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/db"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
+	"github.com/liberty234/lessons/tour-of-go/exports/logs"
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
@@ -103,5 +104,10 @@ func main() {
 	fmt.Println("Time:", datetime.TimeDate)
 	datetime.DateTime()
 	datetime.Weeks()
+
+	//used logs as exported package
+	fmt.Println("Log in time:", logs.LogTime)
+	logs.LogName()
+	logs.UserName()
 
 }

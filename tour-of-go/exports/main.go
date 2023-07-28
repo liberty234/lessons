@@ -6,6 +6,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/auth"
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
 	"github.com/liberty234/lessons/tour-of-go/exports/colors"
+	"github.com/liberty234/lessons/tour-of-go/exports/comprssion"
 	"github.com/liberty234/lessons/tour-of-go/exports/config"
 	"github.com/liberty234/lessons/tour-of-go/exports/csv"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
@@ -158,5 +159,10 @@ func main() {
 	fmt.Println("State of origin:", state.StateOfOrigin)
 	state.StateName()
 	state.Origin()
+
+	//used compression as exported package
+	fmt.Println("Camp:", comprssion.Comp)
+	comprssion.CampMaths()
+	comprssion.Xmlmaths()
 
 }

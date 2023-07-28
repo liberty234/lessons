@@ -14,6 +14,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
 	"github.com/liberty234/lessons/tour-of-go/exports/encryption"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
+	"github.com/liberty234/lessons/tour-of-go/exports/files"
 	"github.com/liberty234/lessons/tour-of-go/exports/logs"
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
@@ -21,6 +22,8 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/regexops"
 	"github.com/liberty234/lessons/tour-of-go/exports/score"
 	"github.com/liberty234/lessons/tour-of-go/exports/sorting"
+	"github.com/liberty234/lessons/tour-of-go/exports/state"
+	"github.com/liberty234/lessons/tour-of-go/exports/statistics"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/subs"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
@@ -140,5 +143,20 @@ func main() {
 	fmt.Println("Gate:", regexops.Build)
 	regexops.House()
 	regexops.Cal()
+
+	//used files as exported package
+	fmt.Println(files.Files)
+	files.NameOfFiles()
+	files.ValuesCheck()
+
+	//used statistics as exported package
+	fmt.Println("Ans:", statistics.Static)
+	statistics.Value()
+	statistics.Staticvalues()
+
+	//used state as exported package
+	fmt.Println("State of origin:", state.StateOfOrigin)
+	state.StateName()
+	state.Origin()
 
 }

@@ -18,6 +18,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
 	"github.com/liberty234/lessons/tour-of-go/exports/sorting"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
+	"github.com/liberty234/lessons/tour-of-go/exports/subs"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
 	"github.com/liberty234/lessons/tour-of-go/exports/util"
 	"github.com/liberty234/lessons/tour-of-go/exports/validation"
@@ -109,5 +110,10 @@ func main() {
 	fmt.Println("Log in time:", logs.LogTime)
 	logs.LogName()
 	logs.UserName()
+
+	//used subs as exported package
+	fmt.Println("Sub Ans =", subs.Sub)
+	subs.SubFunx()
+	subs.Manus()
 
 }

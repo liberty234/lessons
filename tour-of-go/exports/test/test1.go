@@ -1,9 +1,8 @@
 package test
 
-import "fmt"
+var squre = 5 ^ 2
 
-func Square() {
-	mult := square(23, 34)
-	fmt.Println("Multiplication:", mult)
+func square(x, y int) int {
+	return x * y
 
 }

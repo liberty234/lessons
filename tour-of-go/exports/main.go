@@ -18,6 +18,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
+	"github.com/liberty234/lessons/tour-of-go/exports/regexops"
 	"github.com/liberty234/lessons/tour-of-go/exports/score"
 	"github.com/liberty234/lessons/tour-of-go/exports/sorting"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
@@ -39,6 +40,7 @@ func main() {
 	data.Class()
 
 	//use test as export package
+	test.MainSquare()
 	test.Square()
 	fmt.Println("the first person is", test.FirstPerson)
 
@@ -133,5 +135,10 @@ func main() {
 	fmt.Println("MainScore:", score.MainScore)
 	score.Source()
 	score.TotalScore()
+
+	//used regexops as exported package
+	fmt.Println("Gate:", regexops.Build)
+	regexops.House()
+	regexops.Cal()
 
 }

@@ -7,6 +7,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
 	"github.com/liberty234/lessons/tour-of-go/exports/colors"
 	"github.com/liberty234/lessons/tour-of-go/exports/config"
+	"github.com/liberty234/lessons/tour-of-go/exports/csv"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
 	"github.com/liberty234/lessons/tour-of-go/exports/datetime"
 	"github.com/liberty234/lessons/tour-of-go/exports/db"
@@ -115,5 +116,10 @@ func main() {
 	fmt.Println("Sub Ans =", subs.Sub)
 	subs.SubFunx()
 	subs.Manus()
+
+	//used csv as exported package
+	fmt.Println("Yuor Name :", csv.YourName)
+	csv.LastName()
+	csv.MiddleName()
 
 }

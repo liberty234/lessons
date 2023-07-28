@@ -18,6 +18,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
+	"github.com/liberty234/lessons/tour-of-go/exports/score"
 	"github.com/liberty234/lessons/tour-of-go/exports/sorting"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/subs"
@@ -127,5 +128,10 @@ func main() {
 	fmt.Println("Ans:", encryption.Tans)
 	encryption.TansAns()
 	encryption.Tanfun()
+
+	//used score as exported package
+	fmt.Println("MainScore:", score.MainScore)
+	score.Source()
+	score.TotalScore()
 
 }

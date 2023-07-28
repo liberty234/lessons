@@ -12,6 +12,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/datetime"
 	"github.com/liberty234/lessons/tour-of-go/exports/db"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
+	"github.com/liberty234/lessons/tour-of-go/exports/encryption"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	"github.com/liberty234/lessons/tour-of-go/exports/logs"
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
@@ -121,5 +122,10 @@ func main() {
 	fmt.Println("Yuor Name :", csv.YourName)
 	csv.LastName()
 	csv.MiddleName()
+
+	//used encryption as exported package
+	fmt.Println("Ans:", encryption.Tans)
+	encryption.TansAns()
+	encryption.Tanfun()
 
 }

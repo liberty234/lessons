@@ -30,6 +30,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
 	"github.com/liberty234/lessons/tour-of-go/exports/util"
 	"github.com/liberty234/lessons/tour-of-go/exports/validation"
+	"github.com/liberty234/lessons/tour-of-go/exports/xml"
 )
 
 func main() {
@@ -164,5 +165,10 @@ func main() {
 	fmt.Println("Camp:", comprssion.Comp)
 	comprssion.CampMaths()
 	comprssion.Xmlmaths()
+
+	//used xml as exported package
+	fmt.Println(xml.Mathx)
+	xml.Xmlpackage()
+	xml.Doc()
 
 }

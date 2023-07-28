@@ -8,6 +8,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/colors"
 	"github.com/liberty234/lessons/tour-of-go/exports/config"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
+	"github.com/liberty234/lessons/tour-of-go/exports/datetime"
 	"github.com/liberty234/lessons/tour-of-go/exports/db"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
@@ -97,5 +98,10 @@ func main() {
 	fmt.Println("Valid NO:", validation.Valid)
 	validation.Values()
 	validation.Grade()
+
+	//used datetime as exported package
+	fmt.Println("Time:", datetime.TimeDate)
+	datetime.DateTime()
+	datetime.Weeks()
 
 }

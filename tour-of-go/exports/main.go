@@ -13,6 +13,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/config"
 	"github.com/liberty234/lessons/tour-of-go/exports/csv"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
+	"github.com/liberty234/lessons/tour-of-go/exports/databases"
 	"github.com/liberty234/lessons/tour-of-go/exports/datetime"
 	"github.com/liberty234/lessons/tour-of-go/exports/db"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
@@ -233,9 +234,14 @@ func main() {
 	saver.WebName()
 	saver.Website()
 
-	//used  as exported package
+	//used  http as exported package
 	fmt.Println("Http::", http.Game)
 	http.View()
 	http.Web()
+
+	//used databases as exported package
+	fmt.Println(databases.Data)
+	databases.DataBase()
+	databases.Base()
 
 }

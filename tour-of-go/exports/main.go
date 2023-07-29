@@ -24,6 +24,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/files"
 	"github.com/liberty234/lessons/tour-of-go/exports/http"
 	"github.com/liberty234/lessons/tour-of-go/exports/imageops"
+	"github.com/liberty234/lessons/tour-of-go/exports/jp"
 	"github.com/liberty234/lessons/tour-of-go/exports/json"
 	"github.com/liberty234/lessons/tour-of-go/exports/jsonops"
 	"github.com/liberty234/lessons/tour-of-go/exports/logs"
@@ -261,5 +262,10 @@ func main() {
 	fmt.Println(jsonops.Name)
 	jsonops.Func()
 	jsonops.Jp()
+
+	//used jp as exported package
+	fmt.Println("Total:", jp.Jps)
+	jp.Jp()
+	jp.Nus()
 
 }

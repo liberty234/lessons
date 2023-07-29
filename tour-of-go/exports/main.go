@@ -25,6 +25,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/http"
 	"github.com/liberty234/lessons/tour-of-go/exports/imageops"
 	"github.com/liberty234/lessons/tour-of-go/exports/json"
+	"github.com/liberty234/lessons/tour-of-go/exports/jsonops"
 	"github.com/liberty234/lessons/tour-of-go/exports/logs"
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
 	"github.com/liberty234/lessons/tour-of-go/exports/operation"
@@ -255,5 +256,10 @@ func main() {
 	fmt.Println(imageops.Image)
 	imageops.Imageops()
 	imageops.View()
+
+	//used jsonops as exported package
+	fmt.Println(jsonops.Name)
+	jsonops.Func()
+	jsonops.Jp()
 
 }

@@ -23,6 +23,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	"github.com/liberty234/lessons/tour-of-go/exports/files"
 	"github.com/liberty234/lessons/tour-of-go/exports/http"
+	"github.com/liberty234/lessons/tour-of-go/exports/imageops"
 	"github.com/liberty234/lessons/tour-of-go/exports/json"
 	"github.com/liberty234/lessons/tour-of-go/exports/logs"
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
@@ -249,5 +250,10 @@ func main() {
 	fmt.Println("Ans:", calulate.Cal)
 	calulate.Call()
 	calulate.Value()
+
+	//used imageops as exported package
+	fmt.Println(imageops.Image)
+	imageops.Imageops()
+	imageops.View()
 
 }

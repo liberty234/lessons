@@ -7,6 +7,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/authetication"
 	"github.com/liberty234/lessons/tour-of-go/exports/booking"
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
+	"github.com/liberty234/lessons/tour-of-go/exports/calulate"
 	"github.com/liberty234/lessons/tour-of-go/exports/colors"
 	"github.com/liberty234/lessons/tour-of-go/exports/comprssion"
 	"github.com/liberty234/lessons/tour-of-go/exports/concurrent"
@@ -243,5 +244,10 @@ func main() {
 	fmt.Println(databases.Data)
 	databases.DataBase()
 	databases.Base()
+
+	//used calulate as exported package
+	fmt.Println("Ans:", calulate.Cal)
+	calulate.Call()
+	calulate.Value()
 
 }

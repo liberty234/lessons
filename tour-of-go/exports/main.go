@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/liberty234/lessons/tour-of-go/exports/auth"
+	"github.com/liberty234/lessons/tour-of-go/exports/booking"
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
 	"github.com/liberty234/lessons/tour-of-go/exports/colors"
 	"github.com/liberty234/lessons/tour-of-go/exports/comprssion"
@@ -13,11 +14,13 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/datetime"
 	"github.com/liberty234/lessons/tour-of-go/exports/db"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
+	"github.com/liberty234/lessons/tour-of-go/exports/email"
 	"github.com/liberty234/lessons/tour-of-go/exports/encryption"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	"github.com/liberty234/lessons/tour-of-go/exports/files"
 	"github.com/liberty234/lessons/tour-of-go/exports/logs"
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
+	"github.com/liberty234/lessons/tour-of-go/exports/operation"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
 	"github.com/liberty234/lessons/tour-of-go/exports/regexops"
@@ -27,7 +30,9 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/statistics"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
 	"github.com/liberty234/lessons/tour-of-go/exports/subs"
+	"github.com/liberty234/lessons/tour-of-go/exports/tags"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
+	"github.com/liberty234/lessons/tour-of-go/exports/timeops"
 	"github.com/liberty234/lessons/tour-of-go/exports/util"
 	"github.com/liberty234/lessons/tour-of-go/exports/validation"
 	"github.com/liberty234/lessons/tour-of-go/exports/xml"
@@ -170,5 +175,30 @@ func main() {
 	fmt.Println(xml.Mathx)
 	xml.Xmlpackage()
 	xml.Doc()
+
+	//used timeops as exported package
+	fmt.Println("levo:", timeops.Level)
+	timeops.CarNumber()
+	timeops.UserName()
+
+	//used operation as exported package
+	fmt.Println("Oprami", operation.Opramin)
+	operation.Opera()
+	operation.Divide()
+
+	//used tags as exported package
+	fmt.Println("TagVar:", tags.Tags)
+	tags.Tagfun()
+	tags.TagsTypeFunc()
+
+	//used booking as exported package
+	fmt.Println("booked:", booking.Booking)
+	booking.Booked()
+	booking.TicketBooked()
+
+	//used email as exported package
+	fmt.Println("\nEnter email:", email.Email)
+	email.Emailfunc()
+	email.ValidEmail()
 
 }

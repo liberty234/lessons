@@ -8,6 +8,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
 	"github.com/liberty234/lessons/tour-of-go/exports/colors"
 	"github.com/liberty234/lessons/tour-of-go/exports/comprssion"
+	"github.com/liberty234/lessons/tour-of-go/exports/concurrent"
 	"github.com/liberty234/lessons/tour-of-go/exports/config"
 	"github.com/liberty234/lessons/tour-of-go/exports/csv"
 	"github.com/liberty234/lessons/tour-of-go/exports/data"
@@ -206,5 +207,10 @@ func main() {
 	fmt.Println(json.Opramin)
 	json.Opera()
 	json.Divide()
+
+	//used json as exported package
+	fmt.Println("Occurent:", concurrent.Occurent)
+	concurrent.Number()
+	concurrent.Manus()
 
 }

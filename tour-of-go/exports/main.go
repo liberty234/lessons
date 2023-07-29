@@ -20,6 +20,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/encryption"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	"github.com/liberty234/lessons/tour-of-go/exports/files"
+	"github.com/liberty234/lessons/tour-of-go/exports/http"
 	"github.com/liberty234/lessons/tour-of-go/exports/json"
 	"github.com/liberty234/lessons/tour-of-go/exports/logs"
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
@@ -27,6 +28,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/parsers"
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
 	"github.com/liberty234/lessons/tour-of-go/exports/regexops"
+	"github.com/liberty234/lessons/tour-of-go/exports/saver"
 	"github.com/liberty234/lessons/tour-of-go/exports/score"
 	"github.com/liberty234/lessons/tour-of-go/exports/sorting"
 	"github.com/liberty234/lessons/tour-of-go/exports/state"
@@ -38,6 +40,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/timeops"
 	"github.com/liberty234/lessons/tour-of-go/exports/util"
 	"github.com/liberty234/lessons/tour-of-go/exports/validation"
+	"github.com/liberty234/lessons/tour-of-go/exports/webs"
 	"github.com/liberty234/lessons/tour-of-go/exports/xml"
 )
 
@@ -218,5 +221,21 @@ func main() {
 	fmt.Println("SUrName:", authetication.FulllName)
 	authetication.PersonName()
 	authetication.Add()
+
+	//used webs as exported package
+
+	fmt.Println("NewClient:", webs.NewName)
+	webs.PotName()
+	webs.Values()
+
+	//used saver as exported package
+	fmt.Println("Saver;", saver.Saved)
+	saver.WebName()
+	saver.Website()
+
+	//used  as exported package
+	fmt.Println("Http::", http.Game)
+	http.View()
+	http.Web()
 
 }

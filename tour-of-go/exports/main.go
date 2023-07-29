@@ -18,6 +18,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/encryption"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	"github.com/liberty234/lessons/tour-of-go/exports/files"
+	"github.com/liberty234/lessons/tour-of-go/exports/json"
 	"github.com/liberty234/lessons/tour-of-go/exports/logs"
 	"github.com/liberty234/lessons/tour-of-go/exports/network"
 	"github.com/liberty234/lessons/tour-of-go/exports/operation"
@@ -200,5 +201,10 @@ func main() {
 	fmt.Println("\nEnter email:", email.Email)
 	email.Emailfunc()
 	email.ValidEmail()
+
+	//used json as exported package
+	fmt.Println(json.Opramin)
+	json.Opera()
+	json.Divide()
 
 }

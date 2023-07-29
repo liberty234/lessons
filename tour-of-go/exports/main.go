@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/liberty234/lessons/tour-of-go/exports/auth"
+	"github.com/liberty234/lessons/tour-of-go/exports/authetication"
 	"github.com/liberty234/lessons/tour-of-go/exports/booking"
 	"github.com/liberty234/lessons/tour-of-go/exports/buffers"
 	"github.com/liberty234/lessons/tour-of-go/exports/colors"
@@ -212,5 +213,10 @@ func main() {
 	fmt.Println("Occurent:", concurrent.Occurent)
 	concurrent.Number()
 	concurrent.Manus()
+
+	//used authetication as exported package
+	fmt.Println("SUrName:", authetication.FulllName)
+	authetication.PersonName()
+	authetication.Add()
 
 }

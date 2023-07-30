@@ -51,6 +51,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/validation"
 	"github.com/liberty234/lessons/tour-of-go/exports/webs"
 	"github.com/liberty234/lessons/tour-of-go/exports/xml"
+	"github.com/liberty234/lessons/tour-of-go/exports/xmlops"
 )
 
 func main() {
@@ -292,5 +293,10 @@ func main() {
 	fmt.Println("UserName:", dp.UserName)
 	dp.FulllName()
 	dp.Set()
+
+	//used xmlops as exported package
+	fmt.Println("Xpos:", xmlops.Xpos)
+	xmlops.Package()
+	xmlops.Sort()
 
 }

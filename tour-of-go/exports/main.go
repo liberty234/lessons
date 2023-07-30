@@ -73,6 +73,7 @@ func main() {
 
 	//use string export package
 	fmt.Println("my name is ", string1.Name)
+	string1.PersonalInfo()
 	string1.Info()
 
 	//use fileops export package

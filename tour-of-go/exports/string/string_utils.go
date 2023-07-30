@@ -1,6 +1,9 @@
 package string1
 
-type info struct {
-	Name string
-	Code int
+import "fmt"
+
+var info = "This is the last week of the month"
+
+func ifo() {
+	fmt.Println("information is power")
 }

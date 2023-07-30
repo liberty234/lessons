@@ -35,6 +35,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/regexops"
 	"github.com/liberty234/lessons/tour-of-go/exports/saver"
 	"github.com/liberty234/lessons/tour-of-go/exports/score"
+	"github.com/liberty234/lessons/tour-of-go/exports/sort"
 	"github.com/liberty234/lessons/tour-of-go/exports/sorting"
 	"github.com/liberty234/lessons/tour-of-go/exports/state"
 	"github.com/liberty234/lessons/tour-of-go/exports/statistics"
@@ -273,5 +274,10 @@ func main() {
 	fmt.Println("Ans:", structure.Struct)
 	structure.Gb()
 	structure.Solve()
+
+	//used sort as exported package
+	fmt.Println("Name:", sort.Name)
+	sort.Namevex()
+	sort.Form()
 
 }

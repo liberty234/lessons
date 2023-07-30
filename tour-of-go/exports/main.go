@@ -97,7 +97,8 @@ func main() {
 	buffers.Sub()
 
 	//used parsing as export package
-	parsing.Parsing()
+	fmt.Println("Ans", parsing.Par)
+	parsing.Passing()
 	parsing.Divide()
 
 	//used util as exported package

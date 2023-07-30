@@ -36,6 +36,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/parsing"
 	"github.com/liberty234/lessons/tour-of-go/exports/regexops"
 	"github.com/liberty234/lessons/tour-of-go/exports/saver"
+	"github.com/liberty234/lessons/tour-of-go/exports/saverops"
 	"github.com/liberty234/lessons/tour-of-go/exports/score"
 	"github.com/liberty234/lessons/tour-of-go/exports/sort"
 	"github.com/liberty234/lessons/tour-of-go/exports/sorting"
@@ -298,5 +299,10 @@ func main() {
 	fmt.Println("Xpos:", xmlops.Xpos)
 	xmlops.Package()
 	xmlops.Sort()
+
+	//used svaerops as exported package
+	fmt.Println(saverops.NameFull)
+	saverops.FirstName()
+	saverops.Class()
 
 }

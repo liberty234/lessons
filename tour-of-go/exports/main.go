@@ -39,6 +39,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/state"
 	"github.com/liberty234/lessons/tour-of-go/exports/statistics"
 	string1 "github.com/liberty234/lessons/tour-of-go/exports/string"
+	"github.com/liberty234/lessons/tour-of-go/exports/structure"
 	"github.com/liberty234/lessons/tour-of-go/exports/subs"
 	"github.com/liberty234/lessons/tour-of-go/exports/tags"
 	"github.com/liberty234/lessons/tour-of-go/exports/test"
@@ -267,5 +268,10 @@ func main() {
 	fmt.Println("Total:", jp.Jps)
 	jp.Jp()
 	jp.Nus()
+
+	//used structure as exported package
+	fmt.Println("Ans:", structure.Struct)
+	structure.Gb()
+	structure.Solve()
 
 }

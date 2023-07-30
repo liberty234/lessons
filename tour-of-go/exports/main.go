@@ -18,6 +18,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/datetime"
 	"github.com/liberty234/lessons/tour-of-go/exports/db"
 	"github.com/liberty234/lessons/tour-of-go/exports/deck"
+	"github.com/liberty234/lessons/tour-of-go/exports/dp"
 	"github.com/liberty234/lessons/tour-of-go/exports/email"
 	"github.com/liberty234/lessons/tour-of-go/exports/encryption"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
@@ -286,5 +287,10 @@ func main() {
 	fmt.Println("Cost:", helpers.Total)
 	helpers.Cost()
 	helpers.Totals()
+
+	//used dp as exported package
+	fmt.Println("UserName:", dp.UserName)
+	dp.FulllName()
+	dp.Set()
 
 }

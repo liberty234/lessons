@@ -22,6 +22,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/exports/encryption"
 	"github.com/liberty234/lessons/tour-of-go/exports/fileops"
 	"github.com/liberty234/lessons/tour-of-go/exports/files"
+	"github.com/liberty234/lessons/tour-of-go/exports/helpers"
 	"github.com/liberty234/lessons/tour-of-go/exports/http"
 	"github.com/liberty234/lessons/tour-of-go/exports/imageops"
 	"github.com/liberty234/lessons/tour-of-go/exports/jp"
@@ -77,6 +78,7 @@ func main() {
 	fileops.Billpaid()
 
 	//using parsers as exported package
+	fmt.Println("Total:", parsers.Goo)
 	parsers.Goods()
 	parsers.Total()
 
@@ -279,5 +281,10 @@ func main() {
 	fmt.Println("Name:", sort.Name)
 	sort.Namevex()
 	sort.Form()
+
+	//used helpers as exported package
+	fmt.Println("Cost:", helpers.Total)
+	helpers.Cost()
+	helpers.Totals()
 
 }

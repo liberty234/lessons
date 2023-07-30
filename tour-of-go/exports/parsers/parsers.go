@@ -2,6 +2,8 @@ package parsers
 
 import "fmt"
 
+var Goo = 590
+
 func Goods() {
 	Bread := "10k"
 	Beans := "15k"

@@ -2,9 +2,9 @@ package datetime
 
 import "fmt"
 
-var week = "Today is the 6th day of the week"
+var week string = "Today is the 6th day of the week"
 
-func weeks() {
+func getWeeks() {
 	s := "sunday"
 	m := "monday"
 	t := "tuesday"

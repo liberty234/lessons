@@ -2,16 +2,16 @@ package calulate
 
 import "fmt"
 
-var Cal = 67 + 98
+var Cal int = 67 + 98
 
-func Call() {
+func GetCall() {
 	m := 90 - 56
 	fmt.Println(m)
 
 }
 
-func Value() {
+func GetValue() {
 	fmt.Println("Ans:", par)
-	per()
+	getPer()
 
 }

@@ -2,9 +2,9 @@ package colors
 
 import "fmt"
 
-var blue = "I love blue color"
+var blue string = "I love blue color"
 
-func colour() {
+func getColour() {
 	g := "green"
 	w := "white"
 	gen := "green"

@@ -2,16 +2,16 @@ package sorting
 
 import "fmt"
 
-var Sort = 80 / 22
+var Sort int = 80 / 22
 
-func Sorting() {
+func GetSorting() {
 	Eyes := []string{"red eye", "white", "blue eye"}
 	fmt.Println("Eyes colors:", Eyes)
 
 }
 
-func Books() {
+func GetBooks() {
 	fmt.Println("booksColors:", books)
 
-	book()
+	getBook()
 }

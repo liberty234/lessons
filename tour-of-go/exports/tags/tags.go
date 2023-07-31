@@ -2,15 +2,15 @@ package tags
 
 import "fmt"
 
-var Tags = "This is my tags variable"
+var Tags string = "This is my tags variable"
 
-func Tagfun() {
+func GetTagFun() {
 	a := "This is my function tags"
 	fmt.Println("Tag:", a)
 
 }
-func TagsTypeFunc() {
+func GetTagsTypeFunc() {
 	fmt.Println("tagsTypeVar:", tagsType)
-	tagsTypefunc()
+	getTagsTypeFunc()
 
 }

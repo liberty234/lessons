@@ -2,9 +2,9 @@ package timeops
 
 import "fmt"
 
-var Level = 100
+var Level int = 100
 
-func CarNumber() {
+func GetCarNumber() {
 	carColor := []string{"blue", "red", "green"}
 	carName := []string{"car"}
 	for _, f := range carColor {
@@ -17,7 +17,7 @@ func CarNumber() {
 
 }
 
-func UserName() {
+func GetUserName() {
 	fmt.Println("Signed By:", signed)
-	user()
+	getUser()
 }

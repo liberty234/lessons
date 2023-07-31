@@ -2,9 +2,9 @@ package concurrent
 
 import "fmt"
 
-var minus = 159 - 75
+var minus int = 159 - 75
 
-func mac() {
+func getMac() {
 	m := 34 * 895
 	fmt.Println("Ans;", m)
 

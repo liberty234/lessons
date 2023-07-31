@@ -2,14 +2,14 @@ package imageops
 
 import "fmt"
 
-var Image = "imageops variable"
+var Image string = "imageops variable"
 
-func Imageops() {
+func FetchImageops() {
 	fmt.Println("black image")
 
 }
-func View() {
+func FetchView() {
 	fmt.Println(view)
-	views()
+	getViews()
 
 }

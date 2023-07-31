@@ -1,7 +1,7 @@
 package parsing
 
-var div = 78 * 56
+var div int = 78 * 56
 
-func divide(z int, k int) int {
+func getDivide(z int, k int) int {
 	return z / k
 }

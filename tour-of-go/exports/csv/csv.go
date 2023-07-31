@@ -2,16 +2,16 @@ package csv
 
 import "fmt"
 
-var YourName = "My name is Liberty"
+var YourName string = "My name is Liberty"
 
-func LastName() {
+func GetLastName() {
 	l := "Ebikade"
 	fmt.Println("LastName:", l)
 
 }
 
-func MiddleName() {
+func GetMiddleName() {
 	fmt.Println("SurName :", surname)
-	middleName()
+	getMiddleName()
 
 }

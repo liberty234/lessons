@@ -2,17 +2,17 @@ package booking
 
 import "fmt"
 
-var Booking = "Four people has been booked today"
+var Booking string = "Four people has been booked today"
 
-func Booked() {
+func FetchBooked() {
 	bookedName := []string{"Liberty", "Favor", "Gift", "Grace"}
 	for _, v := range bookedName {
 		fmt.Println(v)
 
 	}
 }
-func TicketBooked() {
+func GetTicketBooked() {
 	fmt.Println("VIP:", booking)
-	bookedTicket()
+	getbookedTicket()
 
 }

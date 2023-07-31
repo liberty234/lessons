@@ -2,9 +2,9 @@ package csv
 
 import "fmt"
 
-var surname = "EBIKADE"
+var surname string = "EBIKADE"
 
-func middleName() {
+func getMiddleName() {
 	m := "UWAGHEMERIOH"
 	fmt.Println("Middle Name:", m)
 

@@ -2,9 +2,9 @@ package files
 
 import "fmt"
 
-var check = 90 % 12
+var check int = 90 % 12
 
-func valueCheck() {
+func getValueCheck() {
 	x := 190
 	y := 65
 	fmt.Println("valueCheck:", x*y)

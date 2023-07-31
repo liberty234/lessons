@@ -4,14 +4,14 @@ import "fmt"
 
 var Name string = "Best"
 
-func PersonalInfo() {
+func GetPersonalInfo() {
 	f := "LIBERTY"
 	l := "EBIKADE"
 	fmt.Println("Personal Info:", f+l)
 
 }
 
-func Info() {
+func GetInfo() {
 	fmt.Println("Info", info)
-	ifo()
+	getInfo()
 }

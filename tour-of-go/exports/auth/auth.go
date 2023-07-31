@@ -2,18 +2,18 @@ package auth
 
 import "fmt"
 
-var Multi = 23 * 90
+var Multi int = 23 * 90
 
-func MyNaame() {
+func GetMyNaame() {
 	FirstName := "Liberty"
 	LastName := "Ebikade"
 	fmt.Printf("my name is %s %s", FirstName, LastName)
 
 }
 
-func Deva() {
+func GetDeva() {
 	fmt.Println("\nAns = ", div)
 
-	paint()
+	getPaint()
 
 }

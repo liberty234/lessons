@@ -2,9 +2,9 @@ package jp
 
 import "fmt"
 
-var solve = 500 / 57
+var solve int = 500 / 57
 
-func nus() {
+func getNus() {
 	fmt.Println("Ans:", 90-54)
 
 }

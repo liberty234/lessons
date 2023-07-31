@@ -2,9 +2,9 @@ package xmlops
 
 import "fmt"
 
-var pass = 89 * 80
+var pass int = 89 * 80
 
-func lasp() {
+func getLap() {
 
 	dc := 67
 	fmt.Println("Score:", dc)

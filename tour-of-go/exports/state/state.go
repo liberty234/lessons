@@ -2,9 +2,9 @@ package state
 
 import "fmt"
 
-var StateOfOrigin = "EDO STATE"
+var StateOfOrigin string = "EDO STATE"
 
-func StateName() {
+func GetStateName() {
 	e := "EDO STATE"
 	a := "ABIA STATE"
 	l := "LAGOS STATE"
@@ -12,8 +12,8 @@ func StateName() {
 	fmt.Println("Some state in Nigeria:", e, a, l, an)
 
 }
-func Origin() {
+func GetOrigin() {
 	fmt.Println("Place:", state)
-	origin()
+	getOrigin()
 
 }

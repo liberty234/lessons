@@ -2,17 +2,17 @@ package json
 
 import "fmt"
 
-var Opramin = "we have a great news today"
+var Opramin string = "we have a great news today"
 
-func Opera() {
+func GetOpera() {
 	op := [...]string{"News Talk", "program growth"}
 	fmt.Println("Parsing package:", op)
 
 }
 
-func Divide() {
+func GetDivide() {
 
 	fmt.Println("Ans:", passsolve)
-	div := divide(80, 20)
+	div := getDivide(80, 20)
 	fmt.Println("Divition;", div)
 }

@@ -2,17 +2,17 @@ package parsing
 
 import "fmt"
 
-var Par = 65 + 12
+var Par int = 65 + 12
 
-func Passing() {
+func GetPassing() {
 	Parsing := [...]string{"partletter", "partgrowth"}
 	fmt.Println("Parsing package:", Parsing)
 
 }
 
-func Divide() {
+func GetDivide() {
 	fmt.Println("Ans:", div)
-	div := divide(80, 20)
+	div := getDivide(80, 20)
 	fmt.Println("Divition;", div)
 
 }

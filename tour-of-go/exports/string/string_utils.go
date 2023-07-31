@@ -2,8 +2,8 @@ package string1
 
 import "fmt"
 
-var info = "This is the last week of the month"
+var info string = "This is the last week of the month"
 
-func ifo() {
+func getInfo() {
 	fmt.Println("information is power")
 }

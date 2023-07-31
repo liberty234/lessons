@@ -4,15 +4,15 @@ import (
 	"fmt"
 )
 
-var Valid = 3.2
+var Valid float32 = 3.2
 
-func Values() {
+func GetValues() {
 	va := 23 + 87
 	fmt.Println("Total Value:", va)
 
 }
-func Grade() {
+func GetGrade() {
 	fmt.Println("Shoe size:", sizeOfShoe)
-	grade()
+	getGrade()
 
 }

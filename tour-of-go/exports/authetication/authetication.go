@@ -4,10 +4,10 @@ import "fmt"
 
 var FulllName string = "Liberty Ebikde"
 
-func PersonName() {
+func GetPersonName() {
 	fmt.Println(getName)
 }
-func Add() {
+func FetchAdd() {
 	ads := pluss(23, 23)
 	fmt.Println("Addiction:", ads)
 }

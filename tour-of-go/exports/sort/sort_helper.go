@@ -2,9 +2,9 @@ package sort
 
 import "fmt"
 
-var sub = 38 - 23
+var sub int = 38 - 23
 
-func cal() {
+func getCal() {
 	calculate := 45 - 23
 	fmt.Println("sub", calculate)
 

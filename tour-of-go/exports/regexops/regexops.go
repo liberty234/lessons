@@ -2,16 +2,16 @@ package regexops
 
 import "fmt"
 
-var Build = "best building "
+var Build string = "best building "
 
-func House() {
+func GetHouse() {
 	h := "3 bedroom flat"
 	fmt.Println("Apartment:", h)
 
 }
 
-func Cal() {
+func GetCal() {
 	fmt.Println("Mult:", sore)
-	fmt.Println("Ans = ", cal(62, 2))
+	fmt.Println("Ans = ", getCal(62, 2))
 
 }

@@ -2,14 +2,14 @@ package jsonops
 
 import "fmt"
 
-var Name = "Liberty234"
+var Name string = "Liberty234"
 
-func Func() {
+func GetFunc() {
 	fmt.Println("jsonops funtion")
 
 }
-func Jp() {
+func GetJp() {
 	fmt.Println(j)
-	jp()
+	getJp()
 
 }

@@ -2,13 +2,13 @@ package dp
 
 import "fmt"
 
-var UserName = "Liberty234"
+var UserName string = "Liberty234"
 
-func FulllName() {
+func GetFulllName() {
 	fmt.Println("Full Name: LIBERTY EBIKADE")
 
 }
-func Set() {
+func GetSet() {
 	fmt.Println("MD:", set)
-	been()
+	getBeen()
 }

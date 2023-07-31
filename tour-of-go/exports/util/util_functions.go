@@ -2,7 +2,10 @@ package util
 
 import "fmt"
 
-func Cars() {
-	fmt.Println(cars)
+var car string = "Benz"
+
+func getCars() {
+	d := "Hunder"
+	fmt.Println("Car:", d)
 
 }

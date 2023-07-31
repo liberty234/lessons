@@ -2,16 +2,16 @@ package email
 
 import "fmt"
 
-var Email = "libertyebikade06@gmail.com"
+var Email string = "libertyebikade06@gmail.com"
 
-func Emailfunc() {
+func GetEmailFunc() {
 	e := 51
 	fmt.Printf("Notification: you have %v email notifications", e)
 
 }
 
-func ValidEmail() {
+func GetValidEmail() {
 	fmt.Println("\nEnter comfirmation email:", email)
-	emailfunc()
+	getEmailFunc()
 
 }

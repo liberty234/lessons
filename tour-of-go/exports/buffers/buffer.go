@@ -2,9 +2,9 @@ package buffers
 
 import "fmt"
 
-var Level = 100
+var Level int = 100
 
-func Register() {
+func GetRegister() {
 	firstName := []string{"Liberty", "Best", "Peace"}
 	lastName := []string{"Ebikade"}
 	for _, f := range firstName {
@@ -17,7 +17,7 @@ func Register() {
 
 }
 
-func Sub() {
+func GetSub() {
 	fmt.Println("SubB", subb)
-	sub()
+	getSub()
 }

@@ -2,15 +2,15 @@ package statistics
 
 import "fmt"
 
-var Static = 80 / 12
+var Static int = 80 / 12
 
-func Value() {
+func GetValue() {
 	value := 56 % 2
 	fmt.Println("Ans:", value)
 
 }
 
-func Staticvalues() {
+func GetStaticvalues() {
 	fmt.Println("Score:", stat)
-	static()
+	getStatic()
 }

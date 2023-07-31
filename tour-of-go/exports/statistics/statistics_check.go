@@ -2,9 +2,9 @@ package statistics
 
 import "fmt"
 
-var stat = 25.5
+var stat float32 = 25.5
 
-func static() {
+func getStatic() {
 	firstScore := 202
 	secondScore := 262
 	divide := 4

@@ -2,16 +2,16 @@ package comprssion
 
 import "fmt"
 
-var Comp = 50 - 21
+var Comp int = 50 - 21
 
-func CampMaths() {
+func GetCampMaths() {
 	qu := 50 / 3
 	fmt.Println("Ans:", qu)
 
 }
 
-func Xmlmaths() {
+func GetXmlMaths() {
 	fmt.Println("Cam:", cam)
-	campmath()
+	getCampMath()
 
 }

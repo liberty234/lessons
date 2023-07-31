@@ -4,7 +4,7 @@ import "fmt"
 
 var seed string = "beans seed"
 
-func newDeck() {
+func getNewDeck() {
 	dek := 54 * 34
 	fmt.Println("dek", dek)
 }

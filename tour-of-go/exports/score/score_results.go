@@ -2,9 +2,9 @@ package score
 
 import "fmt"
 
-var bestscore = 89
+var bestscore int = 89
 
-func totalSocre() {
+func getTotalSocre() {
 	t := 89 + 85
 	fmt.Println("Best totalScore:", t)
 

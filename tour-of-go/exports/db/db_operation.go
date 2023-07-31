@@ -2,6 +2,6 @@ package db
 
 var getName string = "freeman"
 
-func plus(x, y int) int {
+func getPlus(x, y int) int {
 	return x + y
 }

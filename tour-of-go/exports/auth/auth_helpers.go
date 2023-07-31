@@ -2,9 +2,9 @@ package auth
 
 import "fmt"
 
-var div = 62 / 4
+var div int = 62 / 4
 
-func paint() {
+func getPaint() {
 	w := "white"
 	y := "yellow"
 	g := "green"

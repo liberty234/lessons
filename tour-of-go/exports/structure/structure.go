@@ -2,15 +2,15 @@ package structure
 
 import "fmt"
 
-var Struct = 65 * 12
+var Struct int = 65 * 12
 
-func Gb() {
+func FetchGb() {
 
 	fmt.Println("GB:", 98+86)
 }
 
-func Solve() {
+func FetchSolve() {
 	fmt.Println("Done:", solve)
-	det()
+	getDet()
 
 }

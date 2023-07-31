@@ -1,9 +1,18 @@
 package util
 
-var cars string = "Lexus360"
+import "fmt"
 
-type CarsAmount struct {
-	Toyota int
-	Lexus  int
-	Benx   int
+var Cars string = "Lexus360"
+
+func GetCarAmount() {
+	c := "Benz : 10000000"
+	f := "Lexus360 : 12000000"
+	fmt.Println("Amount:", c, f)
+
+}
+
+func GetCar() {
+	fmt.Println("Car:", car)
+	getCars()
+
 }

@@ -5,15 +5,15 @@ import (
 	"time"
 )
 
-var TimeDate = "10:17-28-07-2023"
+var TimeDate string = "10:17-28-07-2023"
 
-func DateTime() {
+func GetDateTime() {
 	today := "friday 28 july"
 	fmt.Println("Today date:", time.Now(), today)
 }
 
-func Weeks() {
+func GetWeeks() {
 	fmt.Println("Weeks name:", week)
-	weeks()
+	getWeeks()
 
 }

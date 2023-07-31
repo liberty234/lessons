@@ -1,8 +1,8 @@
 package regexops
 
-var sore = 79 * 12
+var sore int = 79 * 12
 
-func cal(p, f int) int {
+func getCal(p, f int) int {
 	return p / f
 
 }

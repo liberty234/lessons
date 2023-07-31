@@ -2,16 +2,16 @@ package http
 
 import "fmt"
 
-var Game = "https://chat.openai.com"
+var Game string = "https://chat.openai.com"
 
-func View() {
+func GetView() {
 	v := "GOOGLE"
 	fmt.Println(v)
 
 }
 
-func Web() {
+func GetWeb() {
 	fmt.Println("log:", log)
-	website()
+	getWebsite()
 
 }

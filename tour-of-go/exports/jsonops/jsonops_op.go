@@ -2,9 +2,9 @@ package jsonops
 
 import "fmt"
 
-var j = 909
+var j int = 909
 
-func jp() {
+func getJp() {
 	fmt.Println("Ans:", 45+89)
 
 }

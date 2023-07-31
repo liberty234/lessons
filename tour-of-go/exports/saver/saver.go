@@ -2,17 +2,17 @@ package saver
 
 import "fmt"
 
-var Saved = "web saver"
+var Saved string = "web saver"
 
-func WebName() {
+func GetWebName() {
 
 	w := "www.libohop.com"
 	fmt.Println("web:", w)
 
 }
 
-func Website() {
+func GetWebsite() {
 	fmt.Println("website", website)
-	war()
+	getWar()
 
 }

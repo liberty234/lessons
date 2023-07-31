@@ -2,9 +2,9 @@ package calulate
 
 import "fmt"
 
-var par = 83 / 4
+var par int = 83 / 4
 
-func per() {
+func getPer() {
 	p := 67 % 2
 	fmt.Println("percent:", p)
 

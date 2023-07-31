@@ -2,9 +2,9 @@ package buffers
 
 import "fmt"
 
-var subb = 56 - 23
+var subb int = 56 - 23
 
-func sub() {
+func getSub() {
 	substraction := 4 - 2
 
 	fmt.Println(substraction)

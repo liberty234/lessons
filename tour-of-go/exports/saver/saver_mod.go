@@ -2,9 +2,9 @@ package saver
 
 import "fmt"
 
-var website = "www.greatness.com"
+var website string = "www.greatness.com"
 
-func war() {
+func getWar() {
 	w := "self gain"
 	fmt.Println("Title:", w)
 

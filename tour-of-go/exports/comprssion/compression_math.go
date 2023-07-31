@@ -2,9 +2,9 @@ package comprssion
 
 import "fmt"
 
-var cam = 928374 * 938643
+var cam int = 928374 * 938643
 
-func campmath() {
+func getCampMath() {
 	de := 46 + 94
 	fmt.Println("ANS:", de)
 

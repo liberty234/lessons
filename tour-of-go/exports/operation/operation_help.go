@@ -1,7 +1,7 @@
 package operation
 
-var solve = 15 * 2
+var solve int = 15 * 2
 
-func divide(z int, k int) int {
+func getDivide(z int, k int) int {
 	return z / k
 }

@@ -1,8 +1,8 @@
 package encryption
 
-var game = 42 * 2
+var game int = 42 * 2
 
-func tens(x, y int) int {
+func getTens(x, y int) int {
 	return x * y
 
 }

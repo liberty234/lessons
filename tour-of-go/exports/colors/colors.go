@@ -2,9 +2,9 @@ package colors
 
 import "fmt"
 
-var BestColor = "My best color is Blue"
+var BestColor string = "My best color is Blue"
 
-func Colors() {
+func FetchColors() {
 	b := "Blue"
 	g := "Green"
 	w := "White"
@@ -14,8 +14,8 @@ func Colors() {
 
 }
 
-func Colour() {
+func FetchColour() {
 	fmt.Println("BLUE:", blue)
-	colour()
+	getColour()
 
 }

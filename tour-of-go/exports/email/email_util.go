@@ -2,9 +2,9 @@ package email
 
 import "fmt"
 
-var email = "ebikadeliberty7@gmail.com"
+var email string = "ebikadeliberty7@gmail.com"
 
-func emailfunc() {
+func getEmailFunc() {
 	v := "Your email have been comfirm"
 	fmt.Println("Email Comfirmation:", v)
 

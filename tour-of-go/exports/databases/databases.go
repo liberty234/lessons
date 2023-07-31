@@ -2,16 +2,16 @@ package databases
 
 import "fmt"
 
-var Data = "Data base"
+var Data string = "Data base"
 
-func DataBase() {
+func GetDataBase() {
 
 	a := 65 + 80
 	fmt.Println(a)
 
 }
-func Base() {
+func GetBase() {
 	fmt.Println(bases)
-	data()
+	getData()
 
 }

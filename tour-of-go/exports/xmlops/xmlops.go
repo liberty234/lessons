@@ -2,15 +2,15 @@ package xmlops
 
 import "fmt"
 
-var Xpos = "This is an XMlops package"
+var Xpos string = "This is an XMlops package"
 
-func Package() {
+func GetPackage() {
 	x := "used xmlops as an export package"
 	fmt.Println(x)
 
 }
-func Sort() {
+func GetSort() {
 	fmt.Println(pass)
-	lasp()
+	getLap()
 
 }

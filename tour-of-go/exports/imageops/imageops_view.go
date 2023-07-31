@@ -2,9 +2,9 @@ package imageops
 
 import "fmt"
 
-var view = "main view"
+var view string = "main view"
 
-func views() {
+func getViews() {
 	fmt.Println("This is the imageops views")
 
 }

@@ -2,15 +2,15 @@ package subs
 
 import "fmt"
 
-var Sub = 50 - 20
+var Sub int = 50 - 20
 
-func SubFunx() {
+func GetSubFunx() {
 	s := "upgrade your subFunx"
 	fmt.Println("SubFunx:", s)
 }
 
-func Manus() {
+func GetManus() {
 	fmt.Println("sub = ", sub)
-	minus()
+	getMinus()
 
 }

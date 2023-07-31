@@ -2,8 +2,8 @@ package dp
 
 import "fmt"
 
-var set = "Social dp"
+var set string = "Social dp"
 
-func been() {
+func getBeen() {
 	fmt.Println("Gap")
 }

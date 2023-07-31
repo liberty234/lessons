@@ -2,14 +2,14 @@ package concurrent
 
 import "fmt"
 
-var Occurent = 90 + 23
+var Occurent int = 90 + 23
 
-func Number() {
+func GetNumber() {
 	a := 56 / 6
 	fmt.Println("Ans:", a)
 
 }
-func Manus() {
+func GetManus() {
 	fmt.Println("Ans:", minus)
-	mac()
+	getMac()
 }

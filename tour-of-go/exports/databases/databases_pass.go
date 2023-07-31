@@ -2,9 +2,9 @@ package databases
 
 import "fmt"
 
-var bases = 60
+var bases int = 60
 
-func data() {
+func getData() {
 	d := 900
 	fmt.Println(d)
 

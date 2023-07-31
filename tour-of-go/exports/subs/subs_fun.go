@@ -2,9 +2,9 @@ package subs
 
 import "fmt"
 
-var sub = 23 - 3
+var sub int = 23 - 3
 
-func minus() {
+func getMinus() {
 	m := 80 - 23
 	fmt.Println("Ans :", m)
 

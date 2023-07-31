@@ -2,9 +2,9 @@ package booking
 
 import "fmt"
 
-var booking = "This ticket have been booked"
+var booking string = "This ticket have been booked"
 
-func bookedTicket() {
+func getbookedTicket() {
 	b := 55
 	fmt.Printf("%v tickets have been booked today ", b)
 

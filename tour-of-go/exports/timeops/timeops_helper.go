@@ -2,9 +2,9 @@ package timeops
 
 import "fmt"
 
-var signed = "Liberty Ebikade"
+var signed string = "Liberty Ebikade"
 
-func user() {
+func getUser() {
 	u := "Liberty234"
 	fmt.Println("UserName:", u)
 

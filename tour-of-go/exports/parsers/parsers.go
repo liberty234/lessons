@@ -2,9 +2,9 @@ package parsers
 
 import "fmt"
 
-var Goo = 590
+var Goo int = 590
 
-func Goods() {
+func GetGoods() {
 	Bread := "10k"
 	Beans := "15k"
 	Rice := "12k"
@@ -12,8 +12,8 @@ func Goods() {
 
 }
 
-func Total() {
-	alto := total(10, 15, 12)
+func GetTotal() {
+	alto := getTotal(10, 15, 12)
 	fmt.Println("\nThe total of bread, bean and rice is", alto)
 	fmt.Println("Total:", totas)
 }

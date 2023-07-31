@@ -2,10 +2,10 @@ package http
 
 import "fmt"
 
-var log = "log in"
+var log string = "log in"
 
-func website() {
-	w := []string{"Facebook", "WhatsApp", "tweeter"}
+func getWebsite() {
+	w := []string{"Facebook", "WhatsApp", "twitter"}
 	for _, v := range w {
 		fmt.Println(v)
 

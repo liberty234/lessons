@@ -2,14 +2,14 @@ package jp
 
 import "fmt"
 
-var Jps = 80 * 12
+var Jps int = 80 * 12
 
-func Jp() {
+func GetJp() {
 	fmt.Println("Grade:", 89+75)
 
 }
-func Nus() {
+func GetNus() {
 	fmt.Println("Solved:", solve)
-	nus()
+	getNus()
 
 }

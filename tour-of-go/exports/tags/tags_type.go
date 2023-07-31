@@ -2,9 +2,9 @@ package tags
 
 import "fmt"
 
-var tagsType = "This is my tagsTypeVar"
+var tagsType string = "This is my tagsTypeVar"
 
-func tagsTypefunc() {
+func getTagsTypeFunc() {
 	t := "This is my tagsTypeFunc"
 	fmt.Println("tagsTypeFunc", t)
 

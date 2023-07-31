@@ -58,253 +58,253 @@ import (
 func main() {
 	//used math export package
 	fmt.Println(db.Person)
-	db.PersonName()
-	db.Add()
+	db.GetPersonName()
+	db.GetAdd()
 
 	//used data export package
 	fmt.Println("Your Name:", data.Happy)
-	data.FirstName()
-	data.Class()
+	data.FetchFirstName()
+	data.FetchClass()
 
 	//use test as export package
-	test.MainSquare()
-	test.Square()
+	test.GetMainSquare()
+	test.GetSquare()
 	fmt.Println("the first person is", test.FirstPerson)
 
 	//use string export package
 	fmt.Println("my name is ", string1.Name)
-	string1.PersonalInfo()
-	string1.Info()
+	string1.GetPersonalInfo()
+	string1.GetInfo()
 
 	//use fileops export package
 	fmt.Println("bill paid", fileops.Paybill)
-	fileops.Bill()
-	fileops.Billpaid()
+	fileops.GetBill()
+	fileops.GetBillpaid()
 
 	//using parsers as exported package
 	fmt.Println("Total:", parsers.Goo)
-	parsers.Goods()
-	parsers.Total()
+	parsers.GetGoods()
+	parsers.GetTotal()
 
 	//using deck as exported package
 	fmt.Println("MYName:", deck.MyName)
-	deck.Cards()
-	deck.NewDeck()
+	deck.GetCards()
+	deck.FetchNewDeck()
 
 	//used buffer as export package
 	fmt.Println("Level:", buffers.Level)
-	buffers.Register()
-	buffers.Sub()
+	buffers.GetRegister()
+	buffers.GetSub()
 
 	//used parsing as export package
 	fmt.Println("Ans", parsing.Par)
-	parsing.Passing()
-	parsing.Divide()
+	parsing.GetPassing()
+	parsing.GetDivide()
 
 	//used util as exported package
-	bik := util.CarsAmount{Toyota: 9000, Lexus: 10000, Benx: 45000}
-	fmt.Println("CarsTotal:", bik)
-	util.Cars()
+	fmt.Println("Car:", util.Cars)
+	util.GetCarAmount()
+	util.GetCar()
 
 	//used network as exported package
 	fmt.Println(network.Get)
-	network.Network()
-	network.NetworkName()
+	network.FetchNetwork()
+	network.FetchNetworkName()
 
 	//used sorting as exported package
 	fmt.Println("Ans:", sorting.Sort)
-	sorting.Sorting()
-	sorting.Books()
+	sorting.GetSorting()
+	sorting.GetBooks()
 
 	//used config as exported package
 	fmt.Println("Game name:", config.GameName)
-	config.Namevex()
-	config.Calcu()
+	config.FetchNamevet()
+	config.FetchCalcu()
 
 	//used auth as exported package
 	fmt.Println("Multipo:", auth.Multi)
-	auth.MyNaame()
-	auth.Deva()
+	auth.GetMyNaame()
+	auth.GetDeva()
 
 	//used colors as exported package
 	fmt.Println("MyBestColor:", colors.BestColor)
-	colors.Colors()
-	colors.Colour()
+	colors.FetchColors()
+	colors.FetchColour()
 
 	//used validation as exported package
 	fmt.Println("Valid NO:", validation.Valid)
-	validation.Values()
-	validation.Grade()
+	validation.GetValues()
+	validation.GetGrade()
 
 	//used datetime as exported package
 	fmt.Println("Time:", datetime.TimeDate)
-	datetime.DateTime()
-	datetime.Weeks()
+	datetime.GetDateTime()
+	datetime.GetWeeks()
 
 	//used logs as exported package
 	fmt.Println("Log in time:", logs.LogTime)
-	logs.LogName()
-	logs.UserName()
+	logs.GetLogName()
+	logs.GetUserName()
 
 	//used subs as exported package
 	fmt.Println("Sub Ans =", subs.Sub)
-	subs.SubFunx()
-	subs.Manus()
+	subs.GetSubFunx()
+	subs.GetManus()
 
 	//used csv as exported package
 	fmt.Println("Yuor Name :", csv.YourName)
-	csv.LastName()
-	csv.MiddleName()
+	csv.GetLastName()
+	csv.GetMiddleName()
 
 	//used encryption as exported package
 	fmt.Println("Ans:", encryption.Tans)
-	encryption.TansAns()
-	encryption.Tanfun()
+	encryption.FetchTansAns()
+	encryption.FetchTanFun()
 
 	//used score as exported package
 	fmt.Println("MainScore:", score.MainScore)
-	score.Source()
-	score.TotalScore()
+	score.GetSource()
+	score.GetTotalScore()
 
 	//used regexops as exported package
 	fmt.Println("Gate:", regexops.Build)
-	regexops.House()
-	regexops.Cal()
+	regexops.GetHouse()
+	regexops.GetCal()
 
 	//used files as exported package
 	fmt.Println(files.Files)
-	files.NameOfFiles()
-	files.ValuesCheck()
+	files.GetNameOfFiles()
+	files.GetValuesCheck()
 
 	//used statistics as exported package
 	fmt.Println("Ans:", statistics.Static)
-	statistics.Value()
-	statistics.Staticvalues()
+	statistics.GetValue()
+	statistics.GetStaticvalues()
 
 	//used state as exported package
 	fmt.Println("State of origin:", state.StateOfOrigin)
-	state.StateName()
-	state.Origin()
+	state.GetStateName()
+	state.GetOrigin()
 
 	//used compression as exported package
 	fmt.Println("Camp:", comprssion.Comp)
-	comprssion.CampMaths()
-	comprssion.Xmlmaths()
+	comprssion.GetCampMaths()
+	comprssion.GetXmlMaths()
 
 	//used xml as exported package
 	fmt.Println(xml.Mathx)
-	xml.Xmlpackage()
-	xml.Doc()
+	xml.GetXmlPackage()
+	xml.GetDoc()
 
 	//used timeops as exported package
 	fmt.Println("levo:", timeops.Level)
-	timeops.CarNumber()
-	timeops.UserName()
+	timeops.GetCarNumber()
+	timeops.GetUserName()
 
 	//used operation as exported package
 	fmt.Println("Oprami", operation.Opramin)
-	operation.Opera()
-	operation.Divide()
+	operation.GetOpera()
+	operation.GetDivide()
 
 	//used tags as exported package
 	fmt.Println("TagVar:", tags.Tags)
-	tags.Tagfun()
-	tags.TagsTypeFunc()
+	tags.GetTagFun()
+	tags.GetTagsTypeFunc()
 
 	//used booking as exported package
 	fmt.Println("booked:", booking.Booking)
-	booking.Booked()
-	booking.TicketBooked()
+	booking.FetchBooked()
+	booking.GetTicketBooked()
 
 	//used email as exported package
 	fmt.Println("\nEnter email:", email.Email)
-	email.Emailfunc()
-	email.ValidEmail()
+	email.GetEmailFunc()
+	email.GetValidEmail()
 
 	//used json as exported package
 	fmt.Println(json.Opramin)
-	json.Opera()
-	json.Divide()
+	json.GetOpera()
+	json.GetDivide()
 
 	//used json as exported package
 	fmt.Println("Occurent:", concurrent.Occurent)
-	concurrent.Number()
-	concurrent.Manus()
+	concurrent.GetNumber()
+	concurrent.GetManus()
 
 	//used authetication as exported package
 	fmt.Println("SUrName:", authetication.FulllName)
-	authetication.PersonName()
-	authetication.Add()
+	authetication.GetPersonName()
+	authetication.FetchAdd()
 
 	//used webs as exported package
 
 	fmt.Println("NewClient:", webs.NewName)
-	webs.PotName()
-	webs.Values()
+	webs.GetPotName()
+	webs.GetValues()
 
 	//used saver as exported package
 	fmt.Println("Saver;", saver.Saved)
-	saver.WebName()
-	saver.Website()
+	saver.GetWebName()
+	saver.GetWebsite()
 
 	//used  http as exported package
 	fmt.Println("Http::", http.Game)
-	http.View()
-	http.Web()
+	http.GetView()
+	http.GetWeb()
 
 	//used databases as exported package
 	fmt.Println(databases.Data)
-	databases.DataBase()
-	databases.Base()
+	databases.GetDataBase()
+	databases.GetBase()
 
 	//used calulate as exported package
 	fmt.Println("Ans:", calulate.Cal)
-	calulate.Call()
-	calulate.Value()
+	calulate.GetCall()
+	calulate.GetValue()
 
 	//used imageops as exported package
 	fmt.Println(imageops.Image)
-	imageops.Imageops()
-	imageops.View()
+	imageops.FetchImageops()
+	imageops.FetchView()
 
 	//used jsonops as exported package
 	fmt.Println(jsonops.Name)
-	jsonops.Func()
-	jsonops.Jp()
+	jsonops.GetFunc()
+	jsonops.GetJp()
 
 	//used jp as exported package
 	fmt.Println("Total:", jp.Jps)
-	jp.Jp()
-	jp.Nus()
+	jp.GetJp()
+	jp.GetNus()
 
 	//used structure as exported package
 	fmt.Println("Ans:", structure.Struct)
-	structure.Gb()
-	structure.Solve()
+	structure.FetchGb()
+	structure.FetchSolve()
 
 	//used sort as exported package
 	fmt.Println("Name:", sort.Name)
-	sort.Namevex()
-	sort.Form()
+	sort.GetNamevex()
+	sort.GetForm()
 
 	//used helpers as exported package
 	fmt.Println("Cost:", helpers.Total)
-	helpers.Cost()
-	helpers.Totals()
+	helpers.GetCost()
+	helpers.GetTotals()
 
 	//used dp as exported package
 	fmt.Println("UserName:", dp.UserName)
-	dp.FulllName()
-	dp.Set()
+	dp.GetFulllName()
+	dp.GetSet()
 
 	//used xmlops as exported package
 	fmt.Println("Xpos:", xmlops.Xpos)
-	xmlops.Package()
-	xmlops.Sort()
+	xmlops.GetPackage()
+	xmlops.GetSort()
 
 	//used svaerops as exported package
 	fmt.Println(saverops.NameFull)
-	saverops.FirstName()
-	saverops.Class()
+	saverops.GetFirstName()
+	saverops.GetClass()
 
 }

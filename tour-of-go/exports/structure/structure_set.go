@@ -2,9 +2,9 @@ package structure
 
 import "fmt"
 
-var solve = 90 / 32
+var solve int = 90 / 32
 
-func det() {
+func getDet() {
 	fmt.Println("Ans:", 76%2)
 
 }

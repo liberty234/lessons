@@ -2,18 +2,18 @@ package encryption
 
 import "fmt"
 
-var Tans = 23 * 4
+var Tans int = 23 * 4
 
-func TansAns() {
+func FetchTansAns() {
 	t := 64 * 5
 	fmt.Println("Ans :", t)
 
 }
 
-func Tanfun() {
+func FetchTanFun() {
 	fmt.Println("Game Ans:", game)
 
-	c := tens(34, 2)
+	c := getTens(34, 2)
 	fmt.Println("tens Ans:", c)
 
 }

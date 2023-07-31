@@ -4,7 +4,7 @@ import "fmt"
 
 var Name string = "Best Ebikade"
 
-func Namevex() {
+func GetNamevex() {
 	Namevex := []string{"Live", "Game", "Sound"}
 	for i, car := range Namevex {
 		fmt.Println(i, car)
@@ -12,7 +12,7 @@ func Namevex() {
 
 }
 
-func Form() {
+func GetForm() {
 	fmt.Println("Ans:", sub)
-	cal()
+	getCal()
 }

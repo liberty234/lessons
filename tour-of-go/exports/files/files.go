@@ -2,16 +2,16 @@ package files
 
 import "fmt"
 
-var Files = "This is my files"
+var Files string = "This is my files"
 
-func NameOfFiles() {
+func GetNameOfFiles() {
 	do := "police files"
 	fmt.Println("file:", do)
 
 }
 
-func ValuesCheck() {
+func GetValuesCheck() {
 	fmt.Println("percent:", check)
-	valueCheck()
+	getValueCheck()
 
 }

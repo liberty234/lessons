@@ -2,9 +2,9 @@ package score
 
 import "fmt"
 
-var MainScore = "90%"
+var MainScore string = "90%"
 
-func Source() {
+func GetSource() {
 	bestscore := 85
 	main := 90
 
@@ -12,7 +12,7 @@ func Source() {
 
 }
 
-func TotalScore() {
+func GetTotalScore() {
 	fmt.Println("Best score:", bestscore)
-	totalSocre()
+	getTotalSocre()
 }

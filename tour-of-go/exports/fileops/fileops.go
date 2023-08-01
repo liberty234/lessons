@@ -2,9 +2,9 @@ package fileops
 
 import "fmt"
 
-var Paybill string = "electric bill : 5k"
+var PayBill string = "electric bill : 5k"
 
-func GetBillpaid() {
+func GetBillPaid() {
 	sd := 1000 + 5000
 	fmt.Println("Total Bill Paid:", sd)
 

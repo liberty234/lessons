@@ -13,6 +13,6 @@ func FetchBooked() {
 }
 func GetTicketBooked() {
 	fmt.Println("VIP:", booking)
-	getbookedTicket()
+	getBookedTicket()
 
 }

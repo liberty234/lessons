@@ -77,9 +77,9 @@ func main() {
 	string1.GetInfo()
 
 	//use fileops export package
-	fmt.Println("bill paid", fileops.Paybill)
+	fmt.Println("bill paid", fileops.PayBill)
 	fileops.GetBill()
-	fileops.GetBillpaid()
+	fileops.GetBillPaid()
 
 	//using parsers as exported package
 	fmt.Println("Total:", parsers.Goo)
@@ -118,7 +118,7 @@ func main() {
 
 	//used config as exported package
 	fmt.Println("Game name:", config.GameName)
-	config.FetchNamevet()
+	config.FetchNameVet()
 	config.FetchCalcu()
 
 	//used auth as exported package
@@ -284,7 +284,7 @@ func main() {
 
 	//used sort as exported package
 	fmt.Println("Name:", sort.Name)
-	sort.GetNamevex()
+	sort.GetNameVex()
 	sort.GetForm()
 
 	//used helpers as exported package

@@ -9,6 +9,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/calculate"
 	"github.com/liberty234/lessons/tour-of-go/functions/colours"
 	"github.com/liberty234/lessons/tour-of-go/functions/compressions"
+	"github.com/liberty234/lessons/tour-of-go/functions/concurents"
 )
 
 func main() {
@@ -40,5 +41,8 @@ func main() {
 
 	h := compressions.GetMaths(4, 5, 8, 9)
 	fmt.Println(h)
+
+	dc := concurents.GetNumber(45, 8, 60)
+	fmt.Println("Ans:", dc)
 
 }

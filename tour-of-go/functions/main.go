@@ -6,6 +6,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/auth"
 	"github.com/liberty234/lessons/tour-of-go/functions/authetication"
 	"github.com/liberty234/lessons/tour-of-go/functions/bac"
+	"github.com/liberty234/lessons/tour-of-go/functions/bufa"
 	"github.com/liberty234/lessons/tour-of-go/functions/calculate"
 	"github.com/liberty234/lessons/tour-of-go/functions/colours"
 	"github.com/liberty234/lessons/tour-of-go/functions/compressions"
@@ -44,5 +45,13 @@ func main() {
 
 	dc := concurents.GetNumber(45, 8, 60)
 	fmt.Println("Ans:", dc)
+
+	fmt.Println()
+
+	reg1, reg2, reg3, reg4 := bufa.GetRegister("Ebikade", "Liberty", "Best", "Peace")
+	fmt.Println(reg1)
+	fmt.Println(reg2)
+	fmt.Println(reg3)
+	fmt.Println(reg4)
 
 }

@@ -6,6 +6,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/auth"
 	"github.com/liberty234/lessons/tour-of-go/functions/authetication"
 	"github.com/liberty234/lessons/tour-of-go/functions/bac"
+	"github.com/liberty234/lessons/tour-of-go/functions/calculate"
 )
 
 func main() {
@@ -22,5 +23,8 @@ func main() {
 	fmt.Println(class2)
 	fmt.Println(class3)
 	fmt.Println(class4)
+
+	y := calculate.GetCal(9, 6)
+	fmt.Println(y)
 
 }

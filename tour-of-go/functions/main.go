@@ -7,6 +7,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/authetication"
 	"github.com/liberty234/lessons/tour-of-go/functions/bac"
 	"github.com/liberty234/lessons/tour-of-go/functions/calculate"
+	"github.com/liberty234/lessons/tour-of-go/functions/colours"
 )
 
 func main() {
@@ -26,5 +27,14 @@ func main() {
 
 	y := calculate.GetCal(9, 6)
 	fmt.Println(y)
+
+	fmt.Println()
+
+	color1, color2, color3, color4, color5 := colours.GetColors("Blue", "Green", "White", "Red", "yellow")
+	fmt.Println(color1)
+	fmt.Println(color2)
+	fmt.Println(color3)
+	fmt.Println(color4)
+	fmt.Println(color5)
 
 }

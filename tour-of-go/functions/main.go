@@ -16,6 +16,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/configs"
 	"github.com/liberty234/lessons/tour-of-go/functions/csv"
 	"github.com/liberty234/lessons/tour-of-go/functions/database"
+	"github.com/liberty234/lessons/tour-of-go/functions/datas"
 )
 
 func main() {
@@ -87,5 +88,8 @@ func main() {
 
 	d := database.GetCa(65, 902)
 	fmt.Println(d)
+
+	bv := datas.GetNum(4, 5, 8, 9)
+	fmt.Println("Ans:", bv)
 
 }

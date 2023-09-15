@@ -15,6 +15,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/concurents"
 	"github.com/liberty234/lessons/tour-of-go/functions/configs"
 	"github.com/liberty234/lessons/tour-of-go/functions/csv"
+	"github.com/liberty234/lessons/tour-of-go/functions/database"
 )
 
 func main() {
@@ -83,5 +84,8 @@ func main() {
 	fmt.Println(FirstNames)
 	fmt.Println(LastNames)
 	fmt.Println(middleName)
+
+	d := database.GetCa(65, 902)
+	fmt.Println(d)
 
 }

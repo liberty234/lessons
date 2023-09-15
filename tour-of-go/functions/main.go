@@ -6,6 +6,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/auth"
 	"github.com/liberty234/lessons/tour-of-go/functions/authetication"
 	"github.com/liberty234/lessons/tour-of-go/functions/bac"
+	"github.com/liberty234/lessons/tour-of-go/functions/bd"
 	"github.com/liberty234/lessons/tour-of-go/functions/books"
 	"github.com/liberty234/lessons/tour-of-go/functions/bufa"
 	"github.com/liberty234/lessons/tour-of-go/functions/calculate"
@@ -73,5 +74,8 @@ func main() {
 	fmt.Println(game2)
 	fmt.Println(game3)
 	fmt.Println(game4)
+
+	name := bd.GetPersonName("Liberty Ebikade")
+	fmt.Println(name)
 
 }

@@ -17,6 +17,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/csv"
 	"github.com/liberty234/lessons/tour-of-go/functions/database"
 	"github.com/liberty234/lessons/tour-of-go/functions/datas"
+	"github.com/liberty234/lessons/tour-of-go/functions/deck"
 )
 
 func main() {
@@ -91,5 +92,11 @@ func main() {
 
 	bv := datas.GetNum(4, 5, 8, 9)
 	fmt.Println("Ans:", bv)
+	fmt.Println()
 
+	ace, five, four, two := deck.GetCard("Spades", "Diamond", "Spades", "Diamond")
+	fmt.Println(ace)
+	fmt.Println(five)
+	fmt.Println(four)
+	fmt.Println(two)
 }

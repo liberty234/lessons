@@ -12,6 +12,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/colours"
 	"github.com/liberty234/lessons/tour-of-go/functions/compressions"
 	"github.com/liberty234/lessons/tour-of-go/functions/concurents"
+	"github.com/liberty234/lessons/tour-of-go/functions/configs"
 )
 
 func main() {
@@ -64,5 +65,13 @@ func main() {
 	fmt.Println(booked4)
 	fmt.Println(booked5)
 	fmt.Println(booked6)
+
+	fmt.Println()
+
+	game1, game2, game3, game4 := configs.FetchNameVet("Boxing", "Football", "volley Ball", "Table Tennis")
+	fmt.Println(game1)
+	fmt.Println(game2)
+	fmt.Println(game3)
+	fmt.Println(game4)
 
 }

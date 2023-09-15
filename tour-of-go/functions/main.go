@@ -6,6 +6,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/auth"
 	"github.com/liberty234/lessons/tour-of-go/functions/authetication"
 	"github.com/liberty234/lessons/tour-of-go/functions/bac"
+	"github.com/liberty234/lessons/tour-of-go/functions/books"
 	"github.com/liberty234/lessons/tour-of-go/functions/bufa"
 	"github.com/liberty234/lessons/tour-of-go/functions/calculate"
 	"github.com/liberty234/lessons/tour-of-go/functions/colours"
@@ -53,5 +54,15 @@ func main() {
 	fmt.Println(reg2)
 	fmt.Println(reg3)
 	fmt.Println(reg4)
+
+	fmt.Println()
+
+	booked1, booked2, booked3, booked4, booked5, booked6 := books.FetchBooked(15, 9, 6, 12, 25, 13)
+	fmt.Println(booked1)
+	fmt.Println(booked2)
+	fmt.Println(booked3)
+	fmt.Println(booked4)
+	fmt.Println(booked5)
+	fmt.Println(booked6)
 
 }

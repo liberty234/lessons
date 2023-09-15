@@ -14,6 +14,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/compressions"
 	"github.com/liberty234/lessons/tour-of-go/functions/concurents"
 	"github.com/liberty234/lessons/tour-of-go/functions/configs"
+	"github.com/liberty234/lessons/tour-of-go/functions/csv"
 )
 
 func main() {
@@ -77,5 +78,10 @@ func main() {
 
 	name := bd.GetPersonName("Liberty Ebikade")
 	fmt.Println(name)
+	fmt.Println()
+	FirstNames, LastNames, middleName := csv.GetName("Best", "Ebikade", "Ayemereh")
+	fmt.Println(FirstNames)
+	fmt.Println(LastNames)
+	fmt.Println(middleName)
 
 }

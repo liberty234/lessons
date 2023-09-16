@@ -22,6 +22,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/emails"
 	"github.com/liberty234/lessons/tour-of-go/functions/encryptions"
 	"github.com/liberty234/lessons/tour-of-go/functions/fileop"
+	"github.com/liberty234/lessons/tour-of-go/functions/files"
 )
 
 func main() {
@@ -124,5 +125,11 @@ func main() {
 	fmt.Println(eletricBill)
 	fmt.Println(waterBill)
 	fmt.Println(maintenanceBill)
+	fmt.Println()
+
+	file1, file2, file3 := files.GetFiles("officeFill", "directoryFile", "deviceFill")
+	fmt.Println(file1)
+	fmt.Println(file2)
+	fmt.Println(file3)
 
 }

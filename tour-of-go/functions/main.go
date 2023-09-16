@@ -26,6 +26,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/helper"
 	"github.com/liberty234/lessons/tour-of-go/functions/http"
 	"github.com/liberty234/lessons/tour-of-go/functions/imageop"
+	"github.com/liberty234/lessons/tour-of-go/functions/jp"
 )
 
 func main() {
@@ -150,5 +151,10 @@ func main() {
 	fmt.Println(type2)
 	fmt.Println(type3)
 	fmt.Println(type4)
+	fmt.Println()
+	grade1, grade2, grade3 := jp.GetJps(82, 56, 94)
+	fmt.Println(grade1)
+	fmt.Println(grade2)
+	fmt.Println(grade3)
 
 }

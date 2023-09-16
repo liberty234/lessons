@@ -37,6 +37,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/regexop"
 	"github.com/liberty234/lessons/tour-of-go/functions/saver"
 	"github.com/liberty234/lessons/tour-of-go/functions/saverops"
+	"github.com/liberty234/lessons/tour-of-go/functions/score"
 )
 
 func main() {
@@ -198,5 +199,9 @@ func main() {
 	fmt.Println(web)
 	t := saverops.GetTotal(65, 902, 32)
 	fmt.Println("Ans:", t)
+	fmt.Println()
+	score1, score2 := score.GetSources(80, 95)
+	fmt.Println(score1)
+	fmt.Println(score2)
 
 }

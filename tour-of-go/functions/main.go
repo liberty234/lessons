@@ -25,6 +25,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/files"
 	"github.com/liberty234/lessons/tour-of-go/functions/helper"
 	"github.com/liberty234/lessons/tour-of-go/functions/http"
+	"github.com/liberty234/lessons/tour-of-go/functions/imageop"
 )
 
 func main() {
@@ -143,5 +144,11 @@ func main() {
 
 	goo := http.GetGo("GOOGLE")
 	fmt.Println(goo)
+	fmt.Println()
+	type1, type2, type3, type4 := imageop.FetchImageType("JPEG", "PNG", "GIF", "PDF")
+	fmt.Println(type1)
+	fmt.Println(type2)
+	fmt.Println(type3)
+	fmt.Println(type4)
 
 }

@@ -36,6 +36,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/parsing"
 	"github.com/liberty234/lessons/tour-of-go/functions/regexop"
 	"github.com/liberty234/lessons/tour-of-go/functions/saver"
+	"github.com/liberty234/lessons/tour-of-go/functions/saverops"
 )
 
 func main() {
@@ -195,5 +196,7 @@ func main() {
 	fmt.Println(house3)
 	web := saver.GetWeb("www.libohop.com")
 	fmt.Println(web)
+	t := saverops.GetTotal(65, 902, 32)
+	fmt.Println("Ans:", t)
 
 }

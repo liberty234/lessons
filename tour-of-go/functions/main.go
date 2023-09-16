@@ -31,6 +31,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/jsonop"
 	"github.com/liberty234/lessons/tour-of-go/functions/logs"
 	"github.com/liberty234/lessons/tour-of-go/functions/network"
+	"github.com/liberty234/lessons/tour-of-go/functions/operation"
 )
 
 func main() {
@@ -173,5 +174,7 @@ func main() {
 	fmt.Println(net1)
 	fmt.Println(net2)
 	fmt.Println(net3)
+	s := operation.GetCal(58, 34)
+	fmt.Println("Ans:", s)
 
 }

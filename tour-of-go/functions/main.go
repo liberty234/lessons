@@ -24,6 +24,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/fileop"
 	"github.com/liberty234/lessons/tour-of-go/functions/files"
 	"github.com/liberty234/lessons/tour-of-go/functions/helper"
+	"github.com/liberty234/lessons/tour-of-go/functions/http"
 )
 
 func main() {
@@ -139,5 +140,8 @@ func main() {
 	fmt.Println(items2)
 	fmt.Println(items3)
 	fmt.Println(items4)
+
+	goo := http.GetGo("GOOGLE")
+	fmt.Println(goo)
 
 }

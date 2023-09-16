@@ -27,6 +27,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/http"
 	"github.com/liberty234/lessons/tour-of-go/functions/imageop"
 	"github.com/liberty234/lessons/tour-of-go/functions/jp"
+	"github.com/liberty234/lessons/tour-of-go/functions/json"
 )
 
 func main() {
@@ -156,5 +157,7 @@ func main() {
 	fmt.Println(grade1)
 	fmt.Println(grade2)
 	fmt.Println(grade3)
+	news := json.Fetchjson("Saturday break fast")
+	fmt.Println(news)
 
 }

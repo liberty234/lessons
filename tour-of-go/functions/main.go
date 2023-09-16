@@ -28,6 +28,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/imageop"
 	"github.com/liberty234/lessons/tour-of-go/functions/jp"
 	"github.com/liberty234/lessons/tour-of-go/functions/json"
+	"github.com/liberty234/lessons/tour-of-go/functions/jsonop"
 )
 
 func main() {
@@ -159,5 +160,7 @@ func main() {
 	fmt.Println(grade3)
 	news := json.Fetchjson("Saturday break fast")
 	fmt.Println(news)
+	name1 := jsonop.GetPara("Liberty234")
+	fmt.Println(name1)
 
 }

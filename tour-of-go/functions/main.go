@@ -18,6 +18,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/database"
 	"github.com/liberty234/lessons/tour-of-go/functions/datas"
 	"github.com/liberty234/lessons/tour-of-go/functions/deck"
+	"github.com/liberty234/lessons/tour-of-go/functions/dp"
 )
 
 func main() {
@@ -99,4 +100,10 @@ func main() {
 	fmt.Println(five)
 	fmt.Println(four)
 	fmt.Println(two)
+	fmt.Println()
+
+	FirstName1, LastName1, middleName1 := dp.GetAllName("Godbless", "Okoh", "Obi")
+	fmt.Println(FirstName1)
+	fmt.Println(LastName1)
+	fmt.Println(middleName1)
 }

@@ -23,6 +23,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/encryptions"
 	"github.com/liberty234/lessons/tour-of-go/functions/fileop"
 	"github.com/liberty234/lessons/tour-of-go/functions/files"
+	"github.com/liberty234/lessons/tour-of-go/functions/helper"
 )
 
 func main() {
@@ -131,5 +132,12 @@ func main() {
 	fmt.Println(file1)
 	fmt.Println(file2)
 	fmt.Println(file3)
+	fmt.Println()
+
+	items1, items2, items3, items4 := helper.GetCost("58k", "90k", "50k", "40k")
+	fmt.Println(items1)
+	fmt.Println(items2)
+	fmt.Println(items3)
+	fmt.Println(items4)
 
 }

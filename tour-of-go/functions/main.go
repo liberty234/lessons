@@ -21,6 +21,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/dp"
 	"github.com/liberty234/lessons/tour-of-go/functions/emails"
 	"github.com/liberty234/lessons/tour-of-go/functions/encryptions"
+	"github.com/liberty234/lessons/tour-of-go/functions/fileop"
 )
 
 func main() {
@@ -117,4 +118,11 @@ func main() {
 	fmt.Println()
 	en := encryptions.GetPlus(60, 23)
 	fmt.Println("Ans=", en)
+	fmt.Println()
+
+	eletricBill, waterBill, maintenanceBill := fileop.GetBill("6k", "4k", "12k")
+	fmt.Println(eletricBill)
+	fmt.Println(waterBill)
+	fmt.Println(maintenanceBill)
+
 }

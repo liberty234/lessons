@@ -29,6 +29,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/jp"
 	"github.com/liberty234/lessons/tour-of-go/functions/json"
 	"github.com/liberty234/lessons/tour-of-go/functions/jsonop"
+	"github.com/liberty234/lessons/tour-of-go/functions/logs"
 )
 
 func main() {
@@ -162,5 +163,9 @@ func main() {
 	fmt.Println(news)
 	name1 := jsonop.GetPara("Liberty234")
 	fmt.Println(name1)
+	fmt.Println()
+	logIn, logOut := logs.GetLogsTime("10am", "2pm")
+	fmt.Println(logIn)
+	fmt.Println(logOut)
 
 }

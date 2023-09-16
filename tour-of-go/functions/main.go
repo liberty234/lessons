@@ -30,6 +30,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/json"
 	"github.com/liberty234/lessons/tour-of-go/functions/jsonop"
 	"github.com/liberty234/lessons/tour-of-go/functions/logs"
+	"github.com/liberty234/lessons/tour-of-go/functions/network"
 )
 
 func main() {
@@ -167,5 +168,10 @@ func main() {
 	logIn, logOut := logs.GetLogsTime("10am", "2pm")
 	fmt.Println(logIn)
 	fmt.Println(logOut)
+	fmt.Println()
+	net1, net2, net3 := network.GetNetworkType("MTN", "GLO", "Airtel")
+	fmt.Println(net1)
+	fmt.Println(net2)
+	fmt.Println(net3)
 
 }

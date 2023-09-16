@@ -33,6 +33,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/network"
 	"github.com/liberty234/lessons/tour-of-go/functions/operation"
 	"github.com/liberty234/lessons/tour-of-go/functions/parsers"
+	"github.com/liberty234/lessons/tour-of-go/functions/parsing"
 )
 
 func main() {
@@ -182,5 +183,7 @@ func main() {
 	fmt.Println(goods1)
 	fmt.Println(goods2)
 	fmt.Println(goods3)
+	di := parsing.GetDivition(62, 12)
+	fmt.Println("Ans=", di)
 
 }

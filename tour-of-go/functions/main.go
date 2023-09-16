@@ -19,6 +19,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/datas"
 	"github.com/liberty234/lessons/tour-of-go/functions/deck"
 	"github.com/liberty234/lessons/tour-of-go/functions/dp"
+	"github.com/liberty234/lessons/tour-of-go/functions/emails"
 )
 
 func main() {
@@ -106,4 +107,10 @@ func main() {
 	fmt.Println(FirstName1)
 	fmt.Println(LastName1)
 	fmt.Println(middleName1)
+	fmt.Println()
+
+	company1, company2, company3 := emails.FetchCompanyEmail("globalbestCompany@gmail.com", "GodBlessgroup@gmail.com", "libertyInfoCompany@gmail.com")
+	fmt.Println(company1)
+	fmt.Println(company2)
+	fmt.Println(company3)
 }

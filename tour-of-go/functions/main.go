@@ -34,6 +34,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/operation"
 	"github.com/liberty234/lessons/tour-of-go/functions/parsers"
 	"github.com/liberty234/lessons/tour-of-go/functions/parsing"
+	"github.com/liberty234/lessons/tour-of-go/functions/regexop"
 )
 
 func main() {
@@ -185,5 +186,11 @@ func main() {
 	fmt.Println(goods3)
 	di := parsing.GetDivition(62, 12)
 	fmt.Println("Ans=", di)
+	fmt.Println()
+
+	house1, house2, house3 := regexop.GetHouseType("Ranch", "Bungalow", "Cottage")
+	fmt.Println(house1)
+	fmt.Println(house2)
+	fmt.Println(house3)
 
 }

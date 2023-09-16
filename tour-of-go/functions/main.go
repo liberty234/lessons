@@ -32,6 +32,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/logs"
 	"github.com/liberty234/lessons/tour-of-go/functions/network"
 	"github.com/liberty234/lessons/tour-of-go/functions/operation"
+	"github.com/liberty234/lessons/tour-of-go/functions/parsers"
 )
 
 func main() {
@@ -176,5 +177,10 @@ func main() {
 	fmt.Println(net3)
 	s := operation.GetCal(58, 34)
 	fmt.Println("Ans:", s)
+	fmt.Println()
+	goods1, goods2, goods3 := parsers.GetGoodsCost("150k", "50k", "340k")
+	fmt.Println(goods1)
+	fmt.Println(goods2)
+	fmt.Println(goods3)
 
 }

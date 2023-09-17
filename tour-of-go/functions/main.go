@@ -223,4 +223,7 @@ func main() {
 	fmt.Println(state3)
 	fmt.Println(state4)
 
+	gd := concurents.GetNumber(30, 8, 67)
+	fmt.Println("Ans:", gd)
+
 }

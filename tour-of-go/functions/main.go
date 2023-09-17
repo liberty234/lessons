@@ -46,6 +46,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/tag"
 	"github.com/liberty234/lessons/tour-of-go/functions/test"
 	"github.com/liberty234/lessons/tour-of-go/functions/timeop"
+	"github.com/liberty234/lessons/tour-of-go/functions/util"
 )
 
 func main() {
@@ -249,5 +250,8 @@ func main() {
 	fmt.Println(car1)
 	fmt.Println(car2)
 	fmt.Println(car3)
+	carCost1, carCost := util.GetCarCost(2000000000, 400000000)
+	fmt.Println(carCost1)
+	fmt.Println(carCost)
 
 }

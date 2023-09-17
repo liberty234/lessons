@@ -45,6 +45,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/sub"
 	"github.com/liberty234/lessons/tour-of-go/functions/tag"
 	"github.com/liberty234/lessons/tour-of-go/functions/test"
+	"github.com/liberty234/lessons/tour-of-go/functions/timeop"
 )
 
 func main() {
@@ -243,5 +244,10 @@ func main() {
 	fmt.Println(tag)
 	dw := test.GetMath(95, 34)
 	fmt.Println("Ans:", dw)
+	fmt.Println()
+	car1, car2, car3 := timeop.GetCarColor("BLue", "White", "Green")
+	fmt.Println(car1)
+	fmt.Println(car2)
+	fmt.Println(car3)
 
 }

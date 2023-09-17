@@ -225,5 +225,10 @@ func main() {
 
 	gd := concurents.GetNumber(30, 8, 67)
 	fmt.Println("Ans:", gd)
+	fmt.Println()
+	FirstName1, LastName2, middleName := csv.GetName("Best", "Ebikade", "Ayemereh")
+	fmt.Println(FirstName1)
+	fmt.Println(LastName2)
+	fmt.Println(middleName)
 
 }

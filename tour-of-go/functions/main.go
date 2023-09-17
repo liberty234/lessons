@@ -48,6 +48,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/timeop"
 	"github.com/liberty234/lessons/tour-of-go/functions/util"
 	"github.com/liberty234/lessons/tour-of-go/functions/validation"
+	"github.com/liberty234/lessons/tour-of-go/functions/webs"
 )
 
 func main() {
@@ -256,5 +257,8 @@ func main() {
 	fmt.Println(carCost)
 	x := validation.GetValue(23, 80)
 	fmt.Println("Ans:", x)
+	gooo, roo := webs.GetPost("Nice", "Good")
+	fmt.Println(gooo)
+	fmt.Println(roo)
 
 }

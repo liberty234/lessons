@@ -47,6 +47,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/test"
 	"github.com/liberty234/lessons/tour-of-go/functions/timeop"
 	"github.com/liberty234/lessons/tour-of-go/functions/util"
+	"github.com/liberty234/lessons/tour-of-go/functions/validation"
 )
 
 func main() {
@@ -253,5 +254,7 @@ func main() {
 	carCost1, carCost := util.GetCarCost(2000000000, 400000000)
 	fmt.Println(carCost1)
 	fmt.Println(carCost)
+	x := validation.GetValue(23, 80)
+	fmt.Println("Ans:", x)
 
 }

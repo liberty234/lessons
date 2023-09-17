@@ -40,6 +40,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/score"
 	"github.com/liberty234/lessons/tour-of-go/functions/sort"
 	"github.com/liberty234/lessons/tour-of-go/functions/sorting"
+	"github.com/liberty234/lessons/tour-of-go/functions/state"
 )
 
 func main() {
@@ -215,5 +216,11 @@ func main() {
 	fmt.Println(eye1)
 	fmt.Println(eye2)
 	fmt.Println(eye3)
+	fmt.Println()
+	state1, state2, state3, state4 := state.FetchStateName("EDO STATE", "ABIA STATE", "LAGOS STATE", "ANAMBRA STATE")
+	fmt.Println(state1)
+	fmt.Println(state2)
+	fmt.Println(state3)
+	fmt.Println(state4)
 
 }

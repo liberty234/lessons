@@ -43,6 +43,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/state"
 	"github.com/liberty234/lessons/tour-of-go/functions/structure"
 	"github.com/liberty234/lessons/tour-of-go/functions/sub"
+	"github.com/liberty234/lessons/tour-of-go/functions/tag"
 )
 
 func main() {
@@ -237,5 +238,7 @@ func main() {
 	fmt.Println(g2)
 	sb := sub.GetSubFun("upgrade your subFunx")
 	fmt.Println(sb)
+	tag := tag.GetTagFun("This is my function tags")
+	fmt.Println(tag)
 
 }

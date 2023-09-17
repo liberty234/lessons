@@ -39,6 +39,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/saverops"
 	"github.com/liberty234/lessons/tour-of-go/functions/score"
 	"github.com/liberty234/lessons/tour-of-go/functions/sort"
+	"github.com/liberty234/lessons/tour-of-go/functions/sorting"
 )
 
 func main() {
@@ -209,5 +210,10 @@ func main() {
 	fmt.Println(vex1)
 	fmt.Println(vex2)
 	fmt.Println(vex3)
+	fmt.Println()
+	eye1, eye2, eye3 := sorting.GetSort("Red Eye", "White Eye", "Green Eye")
+	fmt.Println(eye1)
+	fmt.Println(eye2)
+	fmt.Println(eye3)
 
 }

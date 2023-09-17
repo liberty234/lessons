@@ -38,6 +38,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/saver"
 	"github.com/liberty234/lessons/tour-of-go/functions/saverops"
 	"github.com/liberty234/lessons/tour-of-go/functions/score"
+	"github.com/liberty234/lessons/tour-of-go/functions/sort"
 )
 
 func main() {
@@ -203,5 +204,10 @@ func main() {
 	score1, score2 := score.GetSources(80, 95)
 	fmt.Println(score1)
 	fmt.Println(score2)
+	fmt.Println()
+	vex1, vex2, vex3 := sort.GetVex("Live", "Game", "Sound")
+	fmt.Println(vex1)
+	fmt.Println(vex2)
+	fmt.Println(vex3)
 
 }

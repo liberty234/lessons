@@ -41,6 +41,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/sort"
 	"github.com/liberty234/lessons/tour-of-go/functions/sorting"
 	"github.com/liberty234/lessons/tour-of-go/functions/state"
+	"github.com/liberty234/lessons/tour-of-go/functions/structure"
 )
 
 func main() {
@@ -230,5 +231,8 @@ func main() {
 	fmt.Println(FirstName1)
 	fmt.Println(LastName2)
 	fmt.Println(middleName)
+	g1, g2 := structure.GetGb(80, 69)
+	fmt.Println(g1)
+	fmt.Println(g2)
 
 }

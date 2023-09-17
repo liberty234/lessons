@@ -42,6 +42,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/sorting"
 	"github.com/liberty234/lessons/tour-of-go/functions/state"
 	"github.com/liberty234/lessons/tour-of-go/functions/structure"
+	"github.com/liberty234/lessons/tour-of-go/functions/sub"
 )
 
 func main() {
@@ -234,5 +235,7 @@ func main() {
 	g1, g2 := structure.GetGb(80, 69)
 	fmt.Println(g1)
 	fmt.Println(g2)
+	sb := sub.GetSubFun("upgrade your subFunx")
+	fmt.Println(sb)
 
 }

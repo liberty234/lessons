@@ -49,6 +49,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/util"
 	"github.com/liberty234/lessons/tour-of-go/functions/validation"
 	"github.com/liberty234/lessons/tour-of-go/functions/webs"
+	"github.com/liberty234/lessons/tour-of-go/functions/xml"
 )
 
 func main() {
@@ -260,5 +261,8 @@ func main() {
 	gooo, roo := webs.GetPost("Nice", "Good")
 	fmt.Println(gooo)
 	fmt.Println(roo)
+
+	result := xml.AddNum(6, 92)
+	fmt.Println("The sum is:", result)
 
 }

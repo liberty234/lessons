@@ -50,6 +50,7 @@ import (
 	"github.com/liberty234/lessons/tour-of-go/functions/validation"
 	"github.com/liberty234/lessons/tour-of-go/functions/webs"
 	"github.com/liberty234/lessons/tour-of-go/functions/xml"
+	"github.com/liberty234/lessons/tour-of-go/functions/xmlop"
 )
 
 func main() {
@@ -264,5 +265,11 @@ func main() {
 
 	result := xml.AddNum(6, 92)
 	fmt.Println("The sum is:", result)
+	fmt.Println()
+	street, city, state, postCode := xmlop.CreateAddress("Osaigbovo", "Benin", "Edo", 300011)
+	fmt.Println(street)
+	fmt.Println(city)
+	fmt.Println(state)
+	fmt.Println(postCode)
 
 }

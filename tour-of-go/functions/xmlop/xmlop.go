@@ -3,9 +3,9 @@ package xmlop
 import "fmt"
 
 func CreateAddress(street, city, state string, postalCode int) (string, string, string, string) {
-	x := fmt.Sprintf("Street:%s", street)
-	c := fmt.Sprintf("City:%s", city)
-	s := fmt.Sprintf("State:%s", state)
-	p := fmt.Sprintf("PostCode:%v", postalCode)
-	return x, c, s, p
+	street1 := fmt.Sprintf("Street:%s", street)
+	city1 := fmt.Sprintf("City:%s", city)
+	state1 := fmt.Sprintf("State:%s", state)
+	postalCode1 := fmt.Sprintf("PostCode:%v", postalCode)
+	return street1, city1, state1, postalCode1
 }

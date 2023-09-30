@@ -1,6 +1,6 @@
 package compressions
 
-func GetMaths(d, f, c, h int) int {
-	return d + f + c + h
+func GetMaths(addD, addF, addC, addH int) int {
+	return addD + addF + addC + addH
 
 }

@@ -2,10 +2,10 @@ package webs
 
 import "fmt"
 
-func GetPost(gooo, roo string) (string, string) {
+func GetPost(google, room string) (string, string) {
 
-	d := fmt.Sprintf("Post%s", gooo)
-	s := fmt.Sprintf("Post%s", roo)
-	return d, s
+	like1 := fmt.Sprintf("Post%s", google)
+	like2 := fmt.Sprintf("Post%s", room)
+	return like1, like2
 
 }

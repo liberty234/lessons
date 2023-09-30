@@ -1,6 +1,6 @@
 package validation
 
-func GetValue(v, q int) int {
-	return v + q
+func GetValue(value1, value2 int) int {
+	return value1 + value2
 
 }

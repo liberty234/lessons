@@ -1,6 +1,6 @@
 package encryptions
 
-func GetPlus(x, y int) int {
-	return x + y
+func GetPlus(multiplyX, MultiplyY int) int {
+	return multiplyX * MultiplyY
 
 }

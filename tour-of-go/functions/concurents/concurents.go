@@ -1,6 +1,6 @@
 package concurents
 
-func GetNumber(b, t, s int) int {
-	return b/t + s
+func GetNumber(divideB, divideT, addC int) int {
+	return divideB/divideT + addC
 
 }

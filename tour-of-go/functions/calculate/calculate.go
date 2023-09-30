@@ -1,6 +1,6 @@
 package calculate
 
-func GetCal(x, y int) int {
-	return x - y*x + y
+func GetCal(calculteX, calculateY int) int {
+	return calculteX - calculateY*calculteX + calculateY
 
 }

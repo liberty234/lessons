@@ -1,6 +1,6 @@
 package operation
 
-func GetCal(x, y int) int {
-	return x - y*x + y
+func GetCal(calculateX, calculateY int) int {
+	return calculateX - calculateY*calculateX + calculateY
 
 }

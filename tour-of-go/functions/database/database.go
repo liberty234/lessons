@@ -1,6 +1,6 @@
 package database
 
-func GetCa(x, y int) int {
-	return x + y
+func GetCa(addx, addY int) int {
+	return addx + addY
 
 }

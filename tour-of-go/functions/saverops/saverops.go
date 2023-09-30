@@ -1,6 +1,6 @@
 package saverops
 
-func GetTotal(x, y, q int) int {
-	return x + y + q
+func GetTotal(calculateX, calculateY, calculateQ int) int {
+	return calculateX + calculateQ + calculateY
 
 }

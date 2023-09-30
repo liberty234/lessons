@@ -3,7 +3,7 @@ package logs
 import "fmt"
 
 func GetLogsTime(logIn, logOut string) (string, string) {
-	li := fmt.Sprintf("Log In Time:%s", logIn)
-	lo := fmt.Sprintf("Log Out Time:%s", logOut)
-	return li, lo
+	logIn = fmt.Sprintf("Log In Time:%s", logIn)
+	logOut = fmt.Sprintf("Log Out Time:%s", logOut)
+	return logIn, logOut
 }

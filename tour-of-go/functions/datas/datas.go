@@ -1,6 +1,6 @@
 package datas
 
-func GetNum(k, y, x, d int) int {
-	return k + y + x + d
+func GetNum(PlusK, PlusY, PlusX, PlusD int) int {
+	return PlusK + PlusY + PlusX + PlusD
 
 }

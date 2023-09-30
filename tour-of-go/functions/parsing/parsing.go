@@ -1,5 +1,5 @@
 package parsing
 
-func GetDivition(z int, k int) int {
-	return z / k
+func GetDivition(divideZ int, divideK int) int {
+	return divideZ / divideK
 }

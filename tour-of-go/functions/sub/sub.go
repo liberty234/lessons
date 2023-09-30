@@ -2,7 +2,7 @@ package sub
 
 import "fmt"
 
-func GetSubFun(sb string) string {
-	c := fmt.Sprintf("GB:%s", sb)
-	return c
+func GetSubFun(sub string) string {
+	sub1 := fmt.Sprintf("GB:%s", sub)
+	return sub1
 }

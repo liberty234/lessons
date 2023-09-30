@@ -3,9 +3,9 @@ package auth
 import "fmt"
 
 func GetFullName(FirstName, LastName string) (string, string) {
-	fName := fmt.Sprintf("FirstName: %v\n", FirstName)
-	lName := fmt.Sprintf("LastName: %v", LastName)
+	firstName := fmt.Sprintf("FirstName: %v\n", FirstName)
+	lastName := fmt.Sprintf("LastName: %v", LastName)
 
-	return fName, lName
+	return firstName, lastName
 
 }

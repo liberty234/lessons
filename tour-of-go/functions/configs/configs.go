@@ -3,11 +3,11 @@ package configs
 import "fmt"
 
 func FetchNameVet(game1, game2, game3, game4 string) (string, string, string, string) {
-	p := fmt.Sprintf("Game Name: %s", game1)
-	g := fmt.Sprintf("Game Name: %s", game2)
-	d := fmt.Sprintf("Game Name: %s", game3)
-	a := fmt.Sprintf("Game Name: %s", game4)
+	gameplay1 := fmt.Sprintf("Game Name: %s", game1)
+	gameplay2 := fmt.Sprintf("Game Name: %s", game2)
+	gameplay3 := fmt.Sprintf("Game Name: %s", game3)
+	gameplay4 := fmt.Sprintf("Game Name: %s", game4)
 
-	return p, g, d, a
+	return gameplay1, gameplay2, gameplay3, gameplay4
 
 }

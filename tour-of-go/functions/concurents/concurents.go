@@ -1,6 +1,8 @@
 package concurents
 
-func GetNumber(divideB, divideT, addC int) int {
-	return divideB/divideT + addC
+func GetNumber(divide, add int) (divide1 int, add1 int) {
+	divide1 = divide / add
+	add1 = add + add
+	return
 
 }

@@ -2,7 +2,7 @@ package tag
 
 import "fmt"
 
-func GetTagFun(tag string) string {
-	tag = fmt.Sprintf("Tags:%s", tag)
-	return tag
+func GetTagFun(tag string) (tag1 string) {
+	tag1 = fmt.Sprintf("Tags:%s", tag)
+	return
 }

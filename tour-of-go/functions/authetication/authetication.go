@@ -1,8 +1,7 @@
 package authetication
 
-import "fmt"
+func GetPersonName(Name string) (Person string) {
+	Person = Name
 
-func GetPersonName(Name string) string {
-	personName := fmt.Sprintf("First Person %s", Name)
-	return personName
+	return
 }

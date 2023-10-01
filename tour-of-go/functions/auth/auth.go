@@ -1,11 +1,9 @@
 package auth
 
-import "fmt"
+func GetFullName(firstName string, lastName string) (FullName string) {
 
-func GetFullName(FirstName, LastName string) (string, string) {
-	firstName := fmt.Sprintf("FirstName: %v\n", FirstName)
-	lastName := fmt.Sprintf("LastName: %v", LastName)
+	FullName = firstName + lastName
 
-	return firstName, lastName
+	return
 
 }

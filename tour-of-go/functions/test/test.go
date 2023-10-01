@@ -1,5 +1,7 @@
 package test
 
-func GetMath(calculate, calculate1 int) int {
-	return calculate + calculate1
+func GetMath(calculate, calculate1 int) (plus, plus1 int) {
+	plus = calculate + calculate
+	plus1 = calculate1 * calculate
+	return
 }

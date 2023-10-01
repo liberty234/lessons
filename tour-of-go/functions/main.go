@@ -54,8 +54,8 @@ import (
 )
 
 func main() {
-	FirstName, LastName := auth.GetFullName("Liberty", "Ebikade")
-	fmt.Println(FirstName, LastName)
+	FullName := auth.GetFullName("Liberty\n", "Ebikade")
+	fmt.Println(FullName)
 
 	Name := authetication.GetPersonName("grace")
 	fmt.Println(Name)
@@ -68,8 +68,9 @@ func main() {
 	fmt.Println(class3)
 	fmt.Println(class4)
 
-	y := calculate.GetCal(9, 6)
-	fmt.Println(y)
+	sum, difference := calculate.GetCal(9, 6)
+	fmt.Println("Sum:", sum)
+	fmt.Println("Defference:", difference)
 
 	fmt.Println()
 
@@ -83,8 +84,9 @@ func main() {
 	h := compressions.GetMaths(4, 5, 8, 9)
 	fmt.Println(h)
 
-	dc := concurents.GetNumber(45, 8, 60)
-	fmt.Println("Ans:", dc)
+	divide1, add1 := concurents.GetNumber(45, 60)
+	fmt.Println("Ans:", divide1)
+	fmt.Println("Ans", add1)
 
 	fmt.Println()
 
@@ -233,9 +235,9 @@ func main() {
 	fmt.Println(state3)
 	fmt.Println(state4)
 
-	gd := concurents.GetNumber(30, 8, 67)
-	fmt.Println("Ans:", gd)
-	fmt.Println()
+	divide1, add1 = concurents.GetNumber(30, 67)
+	fmt.Println("Ans:", divide1)
+	fmt.Println(add1)
 	FirstName1, LastName2, middleName := csv.GetName("Best", "Ebikade", "Ayemereh")
 	fmt.Println(FirstName1)
 	fmt.Println(LastName2)
@@ -247,8 +249,9 @@ func main() {
 	fmt.Println(sub)
 	tag := tag.GetTagFun("This is my function tags")
 	fmt.Println(tag)
-	dw := test.GetMath(95, 34)
-	fmt.Println("Ans:", dw)
+	plus, plus1 := test.GetMath(95, 34)
+	fmt.Println("Ans:", plus)
+	fmt.Println("The sum is:", plus1)
 	fmt.Println()
 	car1, car2, car3 := timeop.GetCarColor("BLue", "White", "Green")
 	fmt.Println(car1)
@@ -263,8 +266,9 @@ func main() {
 	fmt.Println(google)
 	fmt.Println(room)
 
-	result := xml.AddNum(6, 92)
-	fmt.Println("The sum is:", result)
+	add, add1 := xml.AddNum(6, 2)
+	fmt.Println("The sum is:", add)
+	fmt.Println("The sum is:", add1)
 	fmt.Println()
 	street, city, state, postCode := xmlop.CreateAddress("Osaigbovo", "Benin", "Edo", 300011)
 	fmt.Println(street)

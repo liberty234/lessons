@@ -77,3 +77,9 @@ func (c *car) UpdateModel(model string) *car {
 	return c
 
 }
+
+func (c *car) UpdateYear(year int) *car {
+	c.year = year
+	return c
+
+}

@@ -30,6 +30,7 @@ type newCarMade struct {
 	name  string
 	color string
 	model string
+	year  int
 }
 
 func newCar(n newCarMade) (*car, error) {
@@ -72,11 +73,10 @@ func main() {
 
 	n := newCarMade{
 		name:  "benz",
-		color: color2,
+		color: color3,
 		model: "xr",
+		year:  2023,
 	}
-
-	fmt.Println(n)
 
 	benz, err := newCar(n)
 	if err != nil {
@@ -86,10 +86,19 @@ func main() {
 	if benz != nil {
 		fmt.Println(n)
 
+		fmt.Println("Get Car Name:", benz.name)
+		fmt.Println("Get Car Color:", benz.color)
+		fmt.Println("Get Car Model:", benz.model)
+		fmt.Println("Get Car Year:", benz.year)
+		fmt.Println("")
 		benz.updateName("lexus")
-		benz.updateColor("color1")
+		benz.updateColor(color1)
 		benz.updateModel("GR")
 		fmt.Println(benz)
+		fmt.Println("Get UpdateName:", benz.name)
+		fmt.Println("Get UpadateColor:", benz.color)
+		fmt.Println("Get UpdateModel:", benz.model)
+		fmt.Println("Get Year:", benz.year)
 	}
 
 }

@@ -33,4 +33,16 @@ func main() {
 	fmt.Println(logIn)
 	fmt.Printf("variables is of type %T \n", logIn)
 
+	var a, b, c = 1, 2, 3
+	var d bool = true
+
+	/*var a int
+	var b bool
+	var c = 1
+	var d = true*/
+	fmt.Println(a)
+	fmt.Println(b)
+	fmt.Println(c)
+	fmt.Println(d)
+
 }

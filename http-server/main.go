@@ -60,9 +60,9 @@ func handlerUser1(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/", handler)
-	http.HandleFunc("/user1", handlerUser1)
-	fmt.Println("The server is running on port 3000...")
+	http.HandleFunc("/user1", handler)
+	http.HandleFunc("/user2", handlerUser1)
+	fmt.Println("The server is running on port 300...")
 	http.ListenAndServe(":3000", nil)
 
 }

@@ -45,4 +45,13 @@ func main() {
 	fmt.Println(c)
 	fmt.Println(d)
 
+	const (
+		ZERO = iota
+		ONE
+		TWO
+	)
+	const TEST = iota
+
+	fmt.Println(TEST)
+
 }

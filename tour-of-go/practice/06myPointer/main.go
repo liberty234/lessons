@@ -38,6 +38,13 @@ func main() {
 
 	Pointer()
 
+	Pi := P{
+		name: "lee",
+		pin:  996700,
+	}
+
+	fmt.Println(&Pi)
+
 }
 
 type user1 struct {
@@ -70,6 +77,11 @@ func (u *user1) UpdateName(FirstName string) *user1 {
 	u.FirstName = FirstName
 	return u
 
+}
+
+type P struct {
+	name string
+	pin  int
 }
 
 func Pointer() {

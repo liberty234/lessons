@@ -27,4 +27,13 @@ func main() {
 	} else {
 		fmt.Println("No is greater than 10")
 	}
+
+	var a = 6
+
+	if b := a * a; b < 100 {
+		a += 1
+	}
+
+	fmt.Println()
+
 }
